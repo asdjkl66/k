@@ -12,16 +12,23 @@
 "logo": "https://live.fanmingming.com/tv/{name}.png"
 }, 
 {
+"name": "平台直播",
+"type": 0,
+"url": "https://tv.iill.top/m3u/Live",
+"playerType": 2,
+"ua": "okhttp/3.15"
+},
+{
 "name":"IPV6①",
 "type": 0,
-"url":"https://ghp.ci/raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u",
+"url":"https://ghp.ci/https://raw.githubusercontent.com/wwb521/live/main/tv.m3u",
 "playerType": 1,
 "logo": "https://live.fanmingming.com/tv/{name}.png"
 },
 {
 "name": "IPV6②",
 "type": 0,
-"url": "https://ghp.ci/raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u",
+"url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
 "playerType": 1
 }
 ],
@@ -118,39 +125,16 @@
 }
 },
 {
-"key": "优酷弹幕",
-"name": "❄️优酷｜弹幕",
+"key": "hipy_js_腾云驾雾[官]",
+"name": "🌞腾腾┃解析",
 "type": 3,
 "api": "./js/drpy2.min.js",
-"ext": "./js/优酷弹幕.js"
-},
-{
-"key": "小熊弹幕",
-"name": "🐻‍小熊｜弹幕",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "./js/小熊弹幕.js"
-},
-{
-"key": "巨人弹幕",
-"name": "👣巨人｜弹幕",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "./js/巨人弹幕.js"
-},
-{
-"key": "小虎斑弹幕",
-"name": "🐅小虎斑｜弹幕",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "./js/小虎斑弹幕.js"
-},
-{
-"key": "腾腾",
-"name": "🍄腾腾┃弹幕",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "./js/腾讯弹幕.js"
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"order_num": 0,
+"changeable": 0,
+"ext": "./js/ttt.js"
 },
 {
 "key": "guoguo",
@@ -288,16 +272,6 @@
 "filterable": 0
 },
 {
-"key": "酷影视",
-"name": "🍃酷影视｜APP",
-"type": 3,
-"api": "csp_AppYsV2",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": "https://www.tvkuys.xyz/api.php/app/"
-},
-{
 "key": "洽洽影视",
 "name": "🍃洽洽｜APP",
 "type": 3,
@@ -354,13 +328,6 @@
 "changeable": 1
 },
 {
-"key": "caihua",
-"name": "🌈文采┃弹幕",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "http://154.9.252.167:190/js/?key=137811046&id=文采"
-},
-{
 "key": "糯米",
 "name": "🍓糯米┃秒播",
 "type": 3,
@@ -378,17 +345,6 @@
 "searchable": 1,
 "quickSearch": 1,
 "changeable": 1
-},
-{
-"key": "欢视",
-"name": "👓欢视┃多线",
-"type": 3,
-"api": "csp_AppTT",
-"playerType": 2,
-"searchable": 1,
-"quickSearch": 1,
-"changeable": 1,
-"ext": "AO7TcBkd8IPB+BwH4Qma+opv"
 },
 {
 "key": "热播",
@@ -444,6 +400,16 @@
 "changeable": 1
 },
 {
+"key": "低端",
+"name": "⏮️低端┃外剧",
+"type": 3,
+"api": "csp_Ddrk",
+"playerType": "2",
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 1
+},
+{
 "key": "厂长不卡",
 "name": "🏭️厂长┃不卡",
 "type": 3,
@@ -465,15 +431,6 @@
 "quickSearch": 1,
 "changeable": 1,
 "ext": "https://www.zxzjhd.com/"
-},
-{
-"key": "比特",
-"name": "🍄比特┃秒播",
-"type": 3,
-"api": "csp_Bttwoo",
-"searchable": 1,
-"quickSearch": 1,
-"changeable": 1
 },
 {
 "key": "Auete",
@@ -1036,32 +993,6 @@
 "线路标题":"蓝光专线",
 "分类url":"http://www.soutiyi.com/frim/{cateId}-{catePg}.html",
 "分类":"动作片$5#爱情片$6#科幻片$7#恐怖片$8#喜剧片$10#剧情片$12#国产剧$13#港台剧$14#欧美剧$15#日韩剧$16#综艺$3#动漫$4"
-}
-},
-{
-"key":"极速电影",
-"name":"🌞极速┃XBPQ",
-"type":3,
-"api":"csp_XBPQ",
-"searchable":1,
-"quickSearch":1,
-"filterable":1,
-"ext":{
-"分类url":"https://32d.cc/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类":"国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#电影$1#综艺$3#动漫$4#短剧$20"
-}
-},
-{
-"key":"星空影视",
-"name":"☀️超清┃XBPQ",
-"type":3,
-"api":"csp_XBPQ",
-"searchable":1,
-"quickSearch":1,
-"filterable":1,
-"ext":{
-"分类url":"https://www.2000xk.com/hd/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-"分类":"电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#短剧$duanju"
 }
 },
 {
@@ -2835,28 +2766,6 @@
 "type": 3,
 "api": "./js/drpy2.min.js",
 "ext": "./js/金曼影视.js"
-},
-{
-"key": "畅梦",
-"name": "🚀 畅梦┃影视 ",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "./js/changmeng.js",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"changeable": 1
-},
-{
-"key": "小马影视",
-"name": "🐎小马┃影视",
-"type": 3,
-"api": "csp_AppYsV2",
-"playerType": 2,
-"searchable": 1,
-"quickSearch": 1,
-"changeable": 1,
-"ext": "https://mas.szyyds.cn/api.php/app/"
 },
 {
 "key": "gsgs",
