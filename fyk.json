@@ -272,6 +272,33 @@
 "filterable": 0
 },
 {
+"key": "快看影视",
+"name": "💡快看｜影视",
+"type": 3,
+"api": "csp_Kuaikan",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1
+},
+{
+"key": "瓜子影视1",
+"name": "💡瓜子｜影视",
+"type": 3,
+"api": "csp_Gz360",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1
+},
+{
+"key": "饺子影视",
+"name": "💡饺子｜影视",
+"type": 3,
+"api": "csp_Jiaozi",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1
+},
+{
 "key": "洽洽影视",
 "name": "🍃洽洽｜APP",
 "type": 3,
