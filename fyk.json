@@ -35,7 +35,7 @@
 "sites":[
 {
 "key":"豆瓣",
-"name":"🐲豆瓣┃更新12.8",
+"name":"🐲豆瓣┃更新12.12",
 "type": 3,
 "api": "csp_DouDou",
 "searchable": 0,
@@ -235,14 +235,16 @@
 "api": "./js/drpy2.min.js",
 "ext": "./js/分享糖果.js"
 },
-{"key": "T4-安博",
-"name": "💖安博┃影视",
-"type": 4,
-"api": "https://tang.hz.cz/power/ub18?token=647c28ca",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"changeable": 0
+{
+"key":"小马影视",
+"name":"🐎小马┃影视",
+"type":3,
+"api":"csp_AppYsV2",
+"playerType":2,
+"searchable":1,
+"quickSearch":1,
+"changeable":1,
+"ext":"https://mas.szyyds.cn/api.php/app/"
 },
 {
 "key": "金牌影视",
@@ -300,7 +302,7 @@
 },
 {
 "key": "洽洽影视",
-"name": "🍃洽洽｜APP",
+"name": "💡洽洽｜APP",
 "type": 3,
 "api": "csp_AppGZ",
 "searchable": 1,
@@ -309,7 +311,7 @@
 },
 {
 "key": "忍者影视",
-"name": "🍃忍者｜APP",
+"name": "💡忍者｜APP",
 "type": 3,
 "api": "csp_AppRZ",
 "searchable": 1,
@@ -318,7 +320,7 @@
 },
 {
 "key": "西瓜视频",
-"name": "🍉西瓜｜视频",
+"name": "💡西瓜｜视频",
 "type": 3,
 "api": "csp_AmuXiguaV2",
 "searchable": 1,
