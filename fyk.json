@@ -272,7 +272,7 @@
 "searchable": 1,
 "quickSearch": 0,
 "filterable": 0
-},
+}, 
 {
 "key": "快看影视",
 "name": "💡快看｜影视",
@@ -320,7 +320,7 @@
 },
 {
 "key": "西瓜视频",
-"name": "💡西瓜｜视频",
+"name": "🍉西瓜｜视频",
 "type": 3,
 "api": "csp_AmuXiguaV2",
 "searchable": 1,
@@ -3759,7 +3759,6 @@
 "name":"🔥短剧吧┃短剧",
 "type":3,
 "api":"csp_XBPQ",
-
 "ext":{
 "分类":"恋爱$lianai#反转$fanzhuan#悬疑$xuanyi#穿越$chuanyue#古装$guzhuang#都市$dushi",
 "分类url":"https://duanju8.cc/type/{cateId}/page/{catePg}.html"
@@ -3770,8 +3769,7 @@
 "name": "💻分享┃短剧",
 "type": 3,
 "api": "csp_XBPQ",
-
- "searchable": 1,
+"searchable": 1,
 "quickSearch": 1,
 "filterable": 1,
 "ext": "./sub/短剧分享.json"
@@ -3789,15 +3787,6 @@
 ]
 },
 {
-"key": "短剧",
-"name": "🌈上头┃短剧",
-"type": 3,
-"api": "csp_Djtt",
-"searchable": 1,
-"quickSearch": 1,
-"changeable": 1
-},
-{
 "key": "js_蓝莓短剧",
 "name": "📽蓝莓短剧",
 "type": 3,
@@ -3806,17 +3795,6 @@
 "quickSearch": 1,
 "filterable": 1,
 "ext": "./js/蓝莓短剧.js"
-},
-{
-"key": "hipy_js_短剧TV网",
-"name": "📽短剧TV┃短剧",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"order_num": 0,
-"ext": "./js/短剧TV网.js"
 },
 {
 "key": "有声小说js",
@@ -3831,26 +3809,6 @@
 "searchable": 0,
 "quickSearch": 0,
 "changeable": 0
-},
-{
-"key":"相声小品",
-"name":"🎭相声┃小品",
-"type": 3,
-"api":"csp_Bili",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext":"./sub/07xp.json"
-},
-{
-"key":"戏 曲",
-"name":"🤡国粹┃戏曲",
-"type": 3,
-"api":"csp_Bili",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext":"./sub/08xq.json"
 },
 {
 "key":"评书",
@@ -3968,19 +3926,6 @@
 "changeable": 0
 },
 {
-"key": "310js",
-"name": "⚽ 310┃看球",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"ext": "./js/310直播.js",
-"style": {
-"type": "list"
-},
-"searchable": 0,
-"quickSearch": 0,
-"changeable": 0
-},
-{
 "key": "Jrsjs",
 "name": "⚽ Jrs┃球迷",
 "type": 3,
@@ -4037,13 +3982,42 @@
 "ratio": 3.8
 }
 },
+{
+"key": "Bili",
+"name": "🅱哔哔合集┃弹幕",
+"type": 3,
+"api": "csp_Bili",
+"style": {
+"type": "rect",
+"ratio": 1.597
+},
+"searchable": 1,
+"quickSearch": 0,
+"changeable": 0,
+"ext": {
+"json": "./sub/bilibili.json"
+}
+},
+{
+"key": "Biliych",
+"name": "🅱哔哔演唱会┃弹幕",
+"type": 3,
+"api": "csp_Bili",
+"style": {
+"type": "rect",
+"ratio": 1.597
+},
+"searchable": 1,
+"quickSearch": 0,
+"changeable": 0,
+"ext": {
+"json": "./sub/biliych.json"
+}
+},
 {"key":"兔小贝","name":"🐰兔小贝","type":3,"api":"./js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/tuxiaobei.js"},
-{"key":"高中教育","name":"📚学习园地","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./sub/Blixt.json"},
-{"key":"学外语","name":"📚学外语","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./sub/waiyu.json"},
-{"key":"软件教程","name":"📚软件教程","type":3,"api":"csp_Bili","searchable":1,"quickSearch":1,"filterable":1,"ext":"./sub/jiaocheng.json"},
 {
-"key":"少儿教育",
-"name":"📚少儿教育",
+"key": "少儿教育",
+"name": "📚少儿┃教育",
 "type": 3,
 "api": "csp_Bili",
 "style": {
@@ -4053,11 +4027,13 @@
 "searchable": 0,
 "quickSearch": 0,
 "changeable": 0,
-"ext":"./sub/少儿教育.json"
+"ext": {
+"json": "./sub/少儿教育.json"
+}
 },
 {
-"key":"小学课堂",
-"name":"📚小学课堂",
+"key": "小学课堂",
+"name": "📚小学┃课堂",
 "type": 3,
 "api": "csp_Bili",
 "style": {
@@ -4067,11 +4043,13 @@
 "searchable": 0,
 "quickSearch": 0,
 "changeable": 0,
-"ext":"./sub/小学课堂.json"
+"ext": {
+"json": "./sub/小学课堂.json"
+}
 },
 {
-"key":"初中课堂",
-"name":"📚初中课堂",
+"key": "初中课堂",
+"name": "📚初中┃课堂",
 "type": 3,
 "api": "csp_Bili",
 "style": {
@@ -4081,11 +4059,13 @@
 "searchable": 0,
 "quickSearch": 0,
 "changeable": 0,
-"ext":"./sub/初中课堂.json"
+"ext": {
+"json": "./sub/初中课堂.json"
+}
 },
 {
-"key":"高中教育",
-"name":"📚高中课堂",
+"key": "高中教育",
+"name": "📚高中┃课堂",
 "type": 3,
 "api": "csp_Bili",
 "style": {
@@ -4095,24 +4075,65 @@
 "searchable": 0,
 "quickSearch": 0,
 "changeable": 0,
-"ext":"./sub/高中课堂.json"
+"ext": {
+"json": "./sub/高中课堂.json"
+}
+},
+{
+"key": "PanSso",
+"name": "🐌盘他┃三盘",
+"type": 3,
+"api": "csp_PanSso",
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 0,
+"ext": {
+"Cloud-drive": "tvfan/Cloud-drive.txt",
+"from": "4k|auto"
+}
+},
+{
+"key": "YpanSo",
+"name": "🐟盘她┃三盘",
+"type": 3,
+"api": "csp_YpanSo",
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 0,
+"ext": {
+"Cloud-drive": "tvfan/Cloud-drive.txt",
+"from": "4k|auto"
+}
+},
+{
+"key": "xzso",
+"name": "👻盘它┃三盘",
+"type": 3,
+"api": "csp_xzso",
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 0,
+"ext": {
+"Cloud-drive": "tvfan/Cloud-drive.txt",
+"from": "4k|auto"
+}
 },
 {
 "key": "米搜",
-"name": "🦋米搜┃搜索",
+"name": "🦋米搜┃夸父",
 "type": 3,
 "api": "csp_MIPanSo",
 "searchable": 1,
 "quickSearch": 1,
 "changeable": 0,
 "ext": {
-"Cloud-drive": "tvbox/Cloud-drive.txt",
+"Cloud-drive": "tvfan/Cloud-drive.txt",
 "from": "4k|auto"
 }
 },
 {
 "key": "夸搜",
-"name": "🐺夸搜┃搜索",
+"name": "😻夸搜┃夸父",
 "type": 3,
 "api": "csp_PanSearch",
 "searchable": 1,
@@ -4120,46 +4141,33 @@
 "changeable": 0,
 "ext": {
 "pan": "quark",
-"Cloud-drive": "tvbox/Cloud-drive.txt",
+"Cloud-drive": "tvfan/Cloud-drive.txt",
+"from": "4k|auto"
+}
+},
+{
+"key": "Aliso",
+"name": "🙀盘搜┃阿狸",
+"type": 3,
+"api": "csp_Aliso",
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 0,
+"ext": {
+"Cloud-drive": "tvfan/Cloud-drive.txt",
 "from": "4k|auto"
 }
 },
 {
 "key": "YiSo",
-"name": "😹易搜┃搜索",
+"name": "😹易搜┃阿狸",
 "type": 3,
 "api": "csp_YiSo",
 "searchable": 1,
 "quickSearch": 1,
 "changeable": 0,
 "ext": {
-"Cloud-drive": "tvbox/Cloud-drive.txt",
-"from": "4k|auto"
-}
-},
-{
-"key": "PanSou",
-"name": "🦊盘搜┃搜索",
-"type": 3,
-"api": "csp_PanSou",
-"searchable": 1,
-"quickSearch": 1,
-"changeable": 0,
-"ext": {
- "Cloud-drive": "tvbox/Cloud-drive.txt",
-"from": "4k|auto"
-}
-},
-{
-"key": "PanSearch",
-"name": "🙀盘Se┃搜索",
-"type": 3,
-"api": "csp_PanSearch",
-"searchable": 1,
-"quickSearch": 1,
-"changeable": 0,
-"ext": {
-"Cloud-drive": "tvbox/Cloud-drive.txt",
+"Cloud-drive": "tvfan/Cloud-drive.txt",
 "from": "4k|auto"
 }
 },
