@@ -230,7 +230,7 @@
 {"key":"热播影视","name":"💡热播｜影视","type":3,"api":"csp_AppRB","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"低端影视","name":"💡低端｜影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"骚火影视1","name":"💡骚火｜影视","type":3,"api":"csp_SaoHuo","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"农民影视","name":"💡农民｜影视","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"农民影视","name":"💡农民｜影视","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"机器人","name":"💡机器｜影视","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1},
 {
 "key": "金牌影视",
@@ -373,6 +373,17 @@
 {"key":"玩弹幕1","name":"❤玩哥┃弹幕","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site":"https://woog.nxog.asia","danmu": true}},
 {"key":"夸克玩弹幕1","name":"❤玩偶┃弹幕","type":3,"api":"csp_Wobg","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","cookie":"http://127.0.0.1:9978/file/TV/.quark","uc_cookie":"http://127.0.0.1:9978/file/TV/.uc","site": "http://mogg.小胡.top","danmu": true}},
 {
+"key": "zxzj",
+"name": "🗽在线┃外剧",
+"type": 3,
+"api": "csp_Zxzj",
+"timeout": 15,
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 1,
+"ext": "https://www.zxzjhd.com/"
+},
+{
 "key": "Auete",
 "name": "🏝奥特┃无广",
 "type": 3,
@@ -382,6 +393,15 @@
 "quickSearch": 1,
 "changeable": 1,
 "ext": "https://auete.com/"
+},
+{
+"key": "csp_Ysj",
+"name": "🐙异界┃动漫",
+"type": 3,
+"api": "csp_Ysj",
+"playerType": 2,
+"searchable": 1,
+"quickSearch": 1
 },
 {
 "key": "csp_Dm84",
@@ -3590,22 +3610,6 @@
 "changeable": 0
 },
 {
-"key": "MTV",
-"name": "🎧明星┃MV",
-"type": 3,
-"api": "csp_Bili",
-"style": {
-"type": "rect",
-"ratio": 1.597
-},
-"searchable": 0,
-"quickSearch": 0,
-"changeable": 0,
-"ext": {
-"json": "./sub/MTV.json"
-}
-},
-{
 "key": "十六万MV听歌📣",
 "name": "💖听歌┃MV",
 "type": 3,
@@ -3709,70 +3713,11 @@
 }
 },
 {"key":"兔小贝","name":"🐰兔小贝","type":3,"api":"./js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/tuxiaobei.js"},
-{
-"key": "少儿教育",
-"name": "📚少儿┃教育",
-"type": 3,
-"api": "csp_Bili",
-"style": {
-"type": "rect",
-"ratio": 1.597
-},
-"searchable": 0,
-"quickSearch": 0,
-"changeable": 0,
-"ext": {
-"json": "./sub/少儿教育.json"
-}
-},
-{
-"key": "小学课堂",
-"name": "📚小学┃课堂",
-"type": 3,
-"api": "csp_Bili",
-"style": {
-"type": "rect",
-"ratio": 1.597
-},
-"searchable": 0,
-"quickSearch": 0,
-"changeable": 0,
-"ext": {
-"json": "./sub/小学课堂.json"
-}
-},
-{
-"key": "初中课堂",
-"name": "📚初中┃课堂",
-"type": 3,
-"api": "csp_Bili",
-"style": {
-"type": "rect",
-"ratio": 1.597
-},
-"searchable": 0,
-"quickSearch": 0,
-"changeable": 0,
-"ext": {
-"json": "./sub/初中课堂.json"
-}
-},
-{
-"key": "高中教育",
-"name": "📚高中┃课堂",
-"type": 3,
-"api": "csp_Bili",
-"style": {
-"type": "rect",
-"ratio": 1.597
-},
-"searchable": 0,
-"quickSearch": 0,
-"changeable": 0,
-"ext": {
-"json": "./sub/高中课堂.json"
-}
-},
+{"key": "学堂","name": "🅰️学堂┃教育","type": 3,"api": "./js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./js/我的哔哩.js?type=url&params=./sub/学堂教育.json"}, 
+{"key": "少儿","name": "🅰️少儿┃合集","type": 3,"api": "./js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./js/我的哔哩.js?type=url&params=./sub/少儿合集.json"},
+{"key": "小学课堂","name": "🅰️小学┃课堂","type": 3,"api": "./js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./js/我的哔哩.js?type=url&params=./sub/小学课堂.json"},
+{"key": "初中课堂","name": "🅰️初中┃课堂","type": 3,"api": "./js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./js/我的哔哩.js?type=url&params=./sub/初中课堂.json"},
+{"key": "高中课堂","name": "🅰️高中┃课堂","type": 3,"api": "./js/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./js/我的哔哩.js?type=url&params=./sub/高中课堂.json"},
 {"key":"搜索弹幕","name":"❤搜索┃弹幕","type":3,"api":"csp_PanSearch","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","danmu":true}},
 {"key":"米搜弹幕","name":"❤米搜｜弹幕","type":3,"api":"csp_Qkpanso","searchable":1,"filterable":1,"changeable":0,"ext":{"cookie":"http://127.0.0.1:9978/file/tvbox/.quark","site":"https://www.misou.fun","danmu":true}},
 {"key":"易搜弹幕","name":"❤易搜｜弹幕","type":3,"api":"csp_YiSo","searchable":1,"filterable":0,"changeable":1,"ext":{"token":"http://127.0.0.1:9978/file/tvbox/token.txt","danmu":true,"cookie":"satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"}},
