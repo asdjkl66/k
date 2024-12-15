@@ -42,7 +42,6 @@
 "quickSearch": 0,
 "filterable": 0
 },
-{"key":"欧歌js","name":"🐲康哥┃夸速4k","type":3,"api":"./js/4k.min.js","ext":"./js/kg4K.js","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"配置中心","name":"❤通用┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
 {
 "key": "本地",
@@ -819,16 +818,6 @@
 }
 },
 {
-"key":"csp_mgtva",
-"name":"🥥木瓜┃XBPQ",
-"type":3,
-"api":"csp_XBPQ",
-"ext":{
-"分类url": "https://www.muguatva.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html",
-"分类":"电影&电视剧&综艺&动漫","分类值": "dianying&lianxuju&zongyi&dongman"
-}
-},
-{
 "key":"8号影院",
 "name":"🌞首选┃XBPQ",
 "type":3,
@@ -866,41 +855,6 @@
 "线路标题":">&&</span>",
 "分类url":"https://kimivod.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 "分类":"电影$2#电视剧$1#动漫$3#综艺$4#短剧$39"
-}
-},
-{
-"key":"碟调影视",
-"name":"🧿碟调┃XBPQ",
-"type":3,
-"api":"csp_XBPQ",
-"searchable":1,
-"quickSearch":1,
-"filterable":1,
-"ext":{
-"影片类型":"类型：&&</li>",
-"简介":"请勿相信影片中的广告，以免上当受骗。+简介：&&</li>",
-"分类url":"http://www.tooou.com/w_{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-"分类":"电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
-}
-},
-{
-"key": "柯南",
-"name": "🧿柯南┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"线路数组": "data-dropdown-value=&&</div>",
-"线路标题": "<span>&&</span>",
-"影片年代": "<div class=\"module-info-tag\">&&</div>",
-"影片地区": "康哥制作",
-"影片状态": "备注：&&</div>",
-"影片类型": "module-info-tag\">&&立即播放",
-"简介": "请勿相信影片中的广告，以免上当受骗。+<p>&&</p>",
-"分类url": "https://www.knvod.com/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-"分类": "电影$1#连续剧$2#动漫$3#综艺$4#纪录片$5#短剧$6"
 }
 },
 {
@@ -977,106 +931,6 @@
 "searchable": 1,
 "changeable": 1,
 "ext": "./sub/影视鸭.json"
-},
-{
-"key": "碟迷",
-"name": "🧿碟迷┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"影片地区": "制作",
-"搜索url": "https://www.diemi.cc/search/?wd={wd}",
-"搜索链接": "href=\"&&\"",
-"分类url": "https://www.iidie.com/type-{cateId}-{catePg}/",
-"分类": "国产$guochan#韩剧$hanju#港剧$gangju#美剧$meiju#日剧$riju#台剧$taibei#泰剧$taiju#短剧$duanju#动作片$dongzuo#喜剧片$xiju#爱情片$aiqing#科幻片$kehuan#恐怖片$kongbu#战争片$zhanzheng#剧情片$juqing#动漫$dongman#综艺$zongyi"
-}
-},
-{
-"key": "白雾影视",
-"name": "🧿白雾┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"搜索url": "https://www.baiwoo.com/search.php?searchword={wd}",
-"简介": "请勿相信影片中的广告，以免上当受骗。+剧情介绍：&&</li>",
-"线路数组": "<span style=\"font-size:16px;&&</span>",
-"线路标题": ">&&<",
-"分类url": "https://www.baiwoo.com/{cateId}-{catePg}.html",
-"分类": "动作片$i/?5#爱情片$i/?6#科幻片$i/?7#恐怖片$i/?8#战争片$i/?9#喜剧片$i/?10#剧情片$i/?12#纪录片$i/?28#大陆剧$i/?13#港台剧$i/?14#欧美剧$i/?15#日韩剧$i/?16#海外剧$i/?31#动漫$i/?4#综艺$i/?3"
-}
-},
-{
-"key": "爱优影视",
-"name": "🧿爱优┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"简介": "请勿相信影片中的广告，以免上当受骗。+<div class=\"col-pd text-collapse content&&</div>",
- "分类url": "https://www.iuys.cc/vodtype/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "电影$2#电视剧$1#动漫$3#综艺$4"
-}
-},
-{
-"key": "iysdq",
-"name": "🧿影院┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"分类url": "https://www.iysdq.cc/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "国产剧$21#香港剧$22#台湾剧$23#韩国剧$24#日本剧$25#欧美剧$26#泰国剧$27#海外剧$28#电影$1#动漫$4#综艺$3"
-}
-},
-{
-"key": "金漫TV",
-"name": "🧿金漫┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"影片地区": "康哥制作",
-"影片年代": "<div class=\"module-info-tag\">&&</div>",
-"影片状态": "备注：&&</div>",
-"影片类型": "module-info-tag\">&&立即播放",
-"简介": "请勿相信影片中的广告，以免上当受骗。+style=\"line-height: 20px;\"&&</div>",
-"线路数组": "data-dropdown-value=&&</div>[不包含:芒果(超多弹幕)#腾讯(超多弹幕)#优酷(超多弹幕)#爱奇艺(超多弹幕)]",
-"线路标题": "<span>&&</span>",
-"分类url": "https://www.jinman6.com/index.php/vod/show/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-"分类": "电影$1#电视剧$2#动漫$3#综艺$4#纪录片$5#短剧$25"
-}
-},
-{
-"key": "一个G",
-"name": "🧿逸哥┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"影片地区": "康哥制作",
-"影片年代": "<div class=\"module-info-tag\">&&</div>",
-"影片状态": "备注：&&</div>",
-"影片类型": "module-info-tag\">&&立即播放",
-"简介": "请勿相信影片中的广告，以免上当受骗。+style=\"line-height: 20px;\"&&</div>",
-"线路数组": "data-dropdown-value=&&</div>",
-"线路标题": "<span>&&</span>",
-"分类url": "https://yigeg.pro/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$5"
-}
 },
 {
 "key": "豌豆影院",
@@ -1210,20 +1064,6 @@
 "ext": "./sub/电影驿站.json"
 },
 {
-"key": "剧迷影院",
-"name": "🦝剧迷┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"简介": "请勿相信影片中的广告，以免上当受骗。+<div class=\"col-pd text-collapse content\"&&</div>",
-"分类url": "https://gimy.video/channel/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "電影$1#電視劇$2#動漫$30#綜藝$29"
-}
-},
-{
 "key": "剧集TV",
 "name": "📽剧集┃XBPQ",
 "type": 3,
@@ -1234,21 +1074,6 @@
 "ext": {
 "分类url": "https://wap.ijujitv.cc/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 "分类": "韩剧$1#陆剧$6#日剧$2#美剧$3#泰剧$4#港剧$7#台剧$8#短剧$9"
-}
-},
-{
-"key": "bkyy",
-"name": "💳布卡┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"线路数组": "data-target=\"#ewave-playlist-1&&</em>",
-"线路标题": ">&&<",
-"分类url": "https://www.gtrgt.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-"分类": "电影$1#电视剧$2#综艺$3#动漫$4#电影解说$21#伦理$23"
 }
 },
 {
@@ -1263,16 +1088,6 @@
 "分类url": "https://www.ketv.cc/s/movie-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 "分类": "电影$movie#连续剧$series#综艺$variety#动漫$anime#纪录片$documentary#网络短剧$skit#体育$sports"
 }
-},
-{
-"key": "落霞湾",
-"name": "💥落霞┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": "./sub/落霞湾.json"
 },
 {
 "key": "麦田影视",
@@ -1295,22 +1110,6 @@
 "ext": {
 "分类url": "https://www.97soo.cc/type/1/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
 "分类": "电影$2#电视剧$1#动画片$3#综艺片$4#微电影$18#预告片$21"
-}
-},
-{
-"key": "凯奇影视",
-"name": "🍋凯奇┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"简介": "请勿相信影片中的广告，以免上当受骗。+简介：&&</div>",
-"线路数组": "class=\"iconfont hl-icon-laiyuan\"&&</a>[不包含:线路1]",
-"线路标题": "</i>&nbsp;&&</span>[不包含:线路1]",
-"分类url": "https://cageyy.com/vodshow/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "电影$dianying#连续剧$lianxuju#动漫$dongman#综艺$zongyi#纪录片$jilupian#短剧$duanshipin"
 }
 },
 {
@@ -1345,19 +1144,6 @@
 "quickSearch": 1,
 "filterable": 1,
 "ext": "./sub/百万.json"
-},
-{
-"key": "饭团影视",
-"name": "🌾饭团┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"分类url": "https://www.xyy6680.com/list/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-"分类": "电影$dianying#电视剧$dianshiju#动漫$dongman#综艺$zongyi#短剧$duanju"
-}
 },
 {
 "key": "魔力高清cc",
@@ -1556,16 +1342,6 @@
 }
 },
 {
-"key":"剧圈圈",
-"name":"🎦剧圈┃XBPQ",
-"type":3,
-"api":"csp_XBPQ",
-"searchable":1,
-"quickSearch":1,
-"filterable":1,
-"ext":"./sub/剧圈圈.json"
-},
-{
 "key": "美柏",
 "name": "🎦美柏┃XBPQ",
 "type": 3,
@@ -1574,16 +1350,6 @@
 "quickSearch": 1,
 "filterable": 1,
 "ext": "./sub/美柏.json"
-},
-{
-"key":"圣城影视",
-"name":"🎦圣城┃XBPQ",
-"type":3,
-"api":"csp_XBPQ",
-"searchable":1,
-"quickSearch":1,
-"filterable":1,
-"ext":"./sub/sc1080.json"
 },
 {
 "key": "皮皮影视吧",
@@ -1633,27 +1399,6 @@
 "ext": "./sub/4K剧院.json"
 },
 {
-"key": "xbpq_魔法剧院",
-"name": "💢魔法┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"filterable": 1,
-"changeable": 1,
-"ext": {
-"简介": "<p>&&</p>",
-"线路二次截取": "id=\"y-playList\"&&</div></div><script",
-"线路数组": "module-tab-item tab-item&&</div>",
-"线路标题": "💢康哥+span>&&</span+[共+small>&&</small+集][不包含:外链数据]",
-"播放数组": "class=\"module-list sort-list tab-list his-tab-list&&</div",
-"播放列表": "<a&&</a",
-"播放标题": "<span>&&</span>",
-"播放链接": "href=\"&&\"",
-"分类url": "https://fastok.cn/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-"分类": "电影&剧集&综艺&动漫",
-"分类值": "1&2&3&4"
-}
-},
-{
 "key": "csp_红狐狸影视",
 "name": "💢红狐┃XBPQ",
 "type": 3,
@@ -1663,28 +1408,6 @@
 "简介": "+line-height: 20px;\">&&</div>",
 "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
 "分类": "短剧$35#电影$1#连续剧$2#动漫$4#综艺$3"
-}
-},
-{
-"key": "作风",
-"name": "💢作风┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"ext": {
-"数组": "<a&&<div class=\"module-poster-item-info\"",
-"副标题": "<div class=\"module-item-note\">&&</div>",
-"图片": "data-original=\"&&\"",
-"标题": "title=\"&&\"",
-"链接": "href=\"&&\"",
-"线路数组": "class=\"module-tab-item tab-item&&/div>",
-"线路标题": "💢康哥+<span>&&</span>+[共+<small>&&</small>+集]",
-"简介": "<p>&&</p>",
-"播放数组": "module-play-list-content&&</div",
-"播放列表": "<a&&</a",
-"播放标题": ">&&</span",
-"播放链接": "href=\"&&\"",
-"分类url": "https://ys.zf520.cn/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}.html",
-"分类": "电影$1#电视剧$2#综艺$3#动漫$4"
 }
 },
 {
@@ -1758,50 +1481,6 @@
 "分类": "电影&电视剧&综艺&动漫",
 "分类值": "1&2&3&4",
 "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#恐怖片$10#剧情片$11#战争片$12#纪录片$21#其它$22||国产剧$13#港台剧$14#日韩剧$15#欧美剧$16#海外剧$20||空||空"
-}
-},
-{
-"key": "xbpq_墨点",
-"name": "💢墨点┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"filterable": 1,
-"changeable": 1,
-"ext": {
-"分类url": "https://www.modiandy.com/{cateId}/{class}/page/{catePg}",
-"分类": "电影$dianying#连续剧$dianshiju#综艺$zongyi#动漫$dongman",
-"图片": "_src=\"&&\"",
-"图片": "_src=\"&&\"",
-"线路数组": "<h5 class=\"item-name\">&&</h5",
-"线路标题": "💢康哥+</b><b>&&</b><b>",
-"多线数组": "<h5 class=\"item-name\">&&</h5",
-"多线链接": "href=\"&&\"",
-"播放数组": "<ul class=\"episodes-list&&</ul",
-"播放列表": "<li&&</li",
-"播放标题": ">&&</a",
-"播放链接": "href=\"&&\"",
-"起始页": "1",
-"剧情": "剧情片$juqing#喜剧片$xiju#爱情片$aiqing#动作片$dongzuo#恐怖片$kongbu#科幻片$kehuan#战争片$zhanzheng#悬疑片$xuanyi#犯罪片$fanzui#冒险片$maoxian#奇幻片$qihuan#西部片$xibu#历史片$lishi#同性片$tongxing#动画片$donghua||短剧$duanju#大陆剧$dalu#港台剧$gangtai#日韩剧$rihan#美剧$meiju#泰剧$taiju#海外剧$haiwai||大陆综艺$dalu#港台综艺$gangtai#日韩综艺$rihan#欧美综艺$oumei#其他综艺$qita||国漫$guoman#日漫$riman#美漫$meiman#其他$qita"
-}
-},
-{
-"key": "XBPQ_酷茶",
-"name": "💢酷茶┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"站名": "酷茶影视",
-"主页url": "https://www.kcys.top/",
-"嗅探词": ".mp4#m3u8#.m3u8#/tos/#.flv#video/tos",
-"线路数组": "class=\"play-btn*\"*&&</a>",
-"线路标题": "💢康哥+>&&</a",
-"播放数组": "class=\"play-list-wrap\">&&</div>",
-"搜索url": "https://www.kcys.top/search/index.html?keyword={wd}",
-"分类url": "https://www.kcys.top/vod/{catePg}/{cateId}/0/0/0/0/0/0/",
-"分类": "电影$1#电视剧$2#动漫$4#综艺$3#短剧$39"
 }
 },
 {
@@ -1969,19 +1648,6 @@
 }
 },
 {
-"key": "XBPQ_海豚",
-"name": "💢海豚┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"ext": {
-"简介": "<p>&&</p>",
-"线路数组": "<div class=\"module-tab-item tab-item&&</div>",
-"线路标题": "💢康哥+<span>&&</span>+💈+<small>&&</small>+集",
-"分类url": "https://htun.cc/index.php/vod/show/area/{area}/by/{by}/id/{cateId}/page/{catePg}/year/{year}.html",
-"分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$5"
-}
-},
-{
 "key": "18影视",
 "name": "💢18YS┃XBPQ",
 "type": 3,
@@ -2060,32 +1726,6 @@
 }
 },
 {
-"key": "稀饭影视",
-"name": "💢稀饭┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"ext": {
-"分类url": "https://www.xifanys.com/yingpianshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-"分类": "电影$dianying#剧集$lianxuju#综艺$zongyi#动漫$dongman#纪录片$jilupian#体育$tiyu#短剧$duanju"
-}
-},
-{
-"key": "csp_XBPQ_新视觉",
-"name": "💢新视觉┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"主页url": "https://www.80yy3.com/",
-"搜索Url": "https://www.80yy3.com/vod-s/-------------.html?wd={wd}",
-"分类url": "https://www.80yy3.com/vodshow/{cateId}--{by}------{catePg}---{year}.html",
-"分类": "电影&连续剧&综艺&动漫&纪录片",
-"分类值": "1&2&3&4&5"
-}
-},
-{
 "key": "xbpq_爱宝片",
 "name": "💢爱宝┃XBPQ",
 "type": 3,
@@ -2155,22 +1795,6 @@
 "线路标题": "💢康哥+>&&</span+[+<small>&&</small>+集]",
 "分类url": "https://85k.ltd/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}/",
 "分类": "电影$1#连续剧$2#综艺$3#动漫$4#短剧$47"
-}
-},
-{
-"key": "csp_XBPQ_酷艺",
-"name": "💢酷艺┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"主页url": "https://www.kuyiys.com",
-"搜索Url": "https://www.kuyiys.com/vodsearch/-------------.html?wd={wd}",
-"分类url": "https://www.kuyiys.com/vodshow/{cateId}-{area}-{by}------{catePg}---{year}.html",
-"分类": "电影&连续剧&综艺&动漫",
-"分类值": "1&2&3&4"
 }
 },
 {
@@ -2479,16 +2103,6 @@
 }
 },
 {
-"key": "700K",
-"name": "💢700看┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"ext": {
-"分类url": "https://700kan.cc/DyttShow/{cateId}-{area}-{by}-{class}-{lang}----{catePg}---{year}.html",
-"分类": "电影$1#电视剧$2#动漫$4#喜剧片$6#动作片$5#科幻片$8#恐怖片$9#国产剧$12"
-}
-},
-{
 "key": "csp_2yjw",
 "name": "💢外剧┃XBPQ",
 "type": 3,
@@ -2497,20 +2111,6 @@
 "分类url": "https://www.2yjw.com/vodshow/{cateId}--{by}-{class}-----{catePg}---{year}.html",
 "分类": "日韩&欧美剧&泰剧",
 "分类值": "15&16&2"
-}
-},
-{
-"key": "樱花动漫",
-"name": "✨樱花┃XBPQ",
-"type": 3,
-"api": "csp_XBPQ",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": {
-"简介": "请勿相信影片中的广告，以免上当受骗。+<span class=\"sketch content&&</div>",
-"分类url": "https://www.aidm3.com/type/{cateId}-{catePg}.html",
-"分类": "国产动漫$guochandongman#日本动漫$ribendongman#欧美动漫$oumeidongman#动漫电影$dongmandianying"
 }
 },
 {
