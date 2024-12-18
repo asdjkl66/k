@@ -1,5 +1,5 @@
 {
-"spider":"./JAR/fan.txt",
+"spider":"./JAR/kg.txt",
 "wallpaper": "./cici.jpg",
 "logo":"./s.gif",
 "lives":[
@@ -35,14 +35,14 @@
 "sites":[
 {
 "key":"豆瓣",
-"name":"🐲豆瓣┃更新12.12",
+"name":"🐲豆瓣┃更新12.18",
 "type": 3,
 "api": "csp_Douban",
 "searchable": 0,
 "quickSearch": 0,
 "filterable": 0
 },
-{"key":"配置中心","name":"❤通用┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
+{"key":"配置中心","name":"🐲通用┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
 {
 "key": "本地",
 "name": "🖥本地｜视频",
@@ -180,10 +180,6 @@
 "filterable": 1,
 "ext":"./py/py_cctv.py"
 },
-{"key":"csp_XYQHiker_农民影视","name":"🧿农民｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./sub/农民影视.json"}, 
-{"key":"嫖嫖嫖","name":"🧿嫖嫖┃影视","type":3,"api":"csp_XBPQ","ext":{"主页url":"https://www.gs4x7nq4.com/","播放请求头":"User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36","简介":"⚠️康哥特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>","嗅探词":".mp4#.m3u8#.flv#.m3u8?#.mp4?","影片类型":"tags\">&&director\">","影片状态":"bottom\">&&</div>","二次截取":"videoList\":\\[&&\\]","数组":"{&&}[不包含:伦理剧]","图片":"https+://ywxohs.com+obs.gduamoe.com&&\",","标题":"vodName\":\"&&\"","副标题":"vodRemarks\":\"&&\"","链接":"https://www.gs4x7nq4.com/detail/+vodId\":&&,","导演":"导演:</div>&&主演","主演":"主演:</div>&&别名","线路标题":"xxx","播放数组":"listitem\">&&info\">","播放列表":"<a&&</a>","倒序":"否","搜索url":"https://www.gs4x7nq4.com/vod/search/{wd}","搜索副标题":"class=\"boottom\"*<div>&&</div","分类":"电影$1#电视剧$2#综艺$3#动漫$4","分类url":"https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"}},
-{"key":"万家影视","name":"🧿万家┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.lwjtv.com/ystop/{cateId}/area/{area}/page/{catePg}/year/{year}.html","分类":"电视剧$dianshiju#电影$dianying#综艺$zongyi#动漫$dongmna"}},
-{"key":"电影驿站","name":"🧿电影┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.dyyz1.app/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#综艺$3#动漫$4"}},
 {
 "key": "fxz布蕾",
 "name": "💖布蕾┃影视",
@@ -226,7 +222,6 @@
 "ext":"https://mas.szyyds.cn/api.php/app/"
 },
 {"key":"荐片","name":"💡荐片｜影视","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
-//{"key":"南瓜","name":"💡南瓜｜影视","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"天天","name":"💡天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"韩小圈","name":"💡韩小｜影视","type":3,"api":"csp_HanXiaoQuan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"快看影视","name":"💡快看｜影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
@@ -298,10 +293,15 @@
 "quickSearch": 1,
 "filterable": 1
 },
-{"key":"星星影视","name":"💡星星｜影视","type":3,"api":"csp_AppZX","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaLK5slLrVkVKpWWFo0f0XrIG4I/KFx5RJf8ee99ij0p6UXFSzynUUoQn+CMLXQSrHrks8dKtjc6OXESxcMCKZWCfIZLnBIHXbQkKgwbMN1ancbdBF0wmVANCCrQQTm2Nd1Q68RP63nGTicCesKtoaOomHl8T0c2P6T1te5WMsJkNyDa8tsgx5q0uDyR6+QqFAx0l92nhDqQ8"},
+{"key":"星星影视1","name":"💡星星｜影视","type":3,"api":"csp_AppZX","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaLK5slLrVkVKpWWFo0f0XrIG4I/KFx5RJf8ee99ij0p6UXFSzynUUoQn+CMLXQSrHrks8dKtjc6OXESxcMCKZWCfIZLnBIHXbQkKgwbMN1ancbdBF0wmVANCCrQQTm2Nd1Q68RP63nGTicCesKtoaOomHl8T0c2P6T1te5WMsJkNyDa8tsgx5q0uDyR6+QqFAx0l92nhDqQ8"},
 {"key":"全网影视","name":"💡全网｜影视","type":3,"api":"csp_Quanwk","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.91qkw.com"},
 {"key":"奇优影视","name":"💡奇优｜影视","type":3,"api":"csp_Qiyou","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.dyxz2.com/"},
 {"key":"素白白","name":"💡白白｜影视","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://subaibai.com"},
+{"key":"兄弟影视","name":"💡兄弟｜影视","type":3,"api":"csp_AppGetApp","searchable":1,"quickSearch":1,"filterable":1,"ext":"KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA=="},
+{"key":"移动云盘","name":"💡移动｜影视","type":3,"api":"csp_YDjisu","searchable":1,"changeable":1},
+{"key":"cspMiTuApp","name":"💡米兔｜影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="},
+{"key":"csp电影","name":"💡电影｜影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="},
+{"key":"cszhufan","name":"💡追饭｜影视","searchable":1,"quickSearch":1,"type":3,"api":"csp_MITO","ext":{"url":"http://103.88.35.251:8989","dataKey":"aassddwwxxllsx1x","playKey":"bbssqdbbssll25sx","version":"2.1.0"}},
 {
 "key": "西瓜视频",
 "name": "🍉西瓜｜视频",
@@ -340,6 +340,16 @@
 "changeable": 1
 },
 {
+"key": "南瓜",
+"name": "🎃南瓜┃多线",
+"type": 3,
+"api": "csp_NanGua",
+"playerType": 2,
+"searchable": 1,
+"quickSearch": 1,
+"changeable": 1
+},
+{
 "key": "苹果",
 "name": "🍎苹果┃不卡",
 "type": 3,
@@ -360,7 +370,7 @@
 "changeable": 1
 },
 //弹幕
-{"key":"糯米弹幕","name":"💘糯米｜弹幕","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
+{"key":"糯米弹幕","name":"💘糯米｜弹幕","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 {"key":"三六零弹幕","name":"💘三六┃弹幕","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
 //{"key":"南瓜弹幕","name":"💘南瓜┃弹幕","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 {"key":"天天弹幕","name":"💘天天┃弹幕","type":3,"api": "csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
@@ -494,6 +504,10 @@
 "filterable": 1,
 "ext": "http://www.bczhuiju.com/api.php/v1.vod"
 },
+{"key":"csp_XYQHiker_农民影视","name":"🧿农民｜影视","type":3,"api":"csp_XYQHiker","searchable":1,"quickSearch":1,"filterable":1,"ext":"./sub/农民影视.json"}, 
+{"key":"嫖嫖嫖","name":"🧿嫖嫖┃影视","type":3,"api":"csp_XBPQ","ext":{"主页url":"https://www.gs4x7nq4.com/","播放请求头":"User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36","简介":"⚠️康哥特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>","嗅探词":".mp4#.m3u8#.flv#.m3u8?#.mp4?","影片类型":"tags\">&&director\">","影片状态":"bottom\">&&</div>","二次截取":"videoList\":\\[&&\\]","数组":"{&&}[不包含:伦理剧]","图片":"https+://ywxohs.com+obs.gduamoe.com&&\",","标题":"vodName\":\"&&\"","副标题":"vodRemarks\":\"&&\"","链接":"https://www.gs4x7nq4.com/detail/+vodId\":&&,","导演":"导演:</div>&&主演","主演":"主演:</div>&&别名","线路标题":"xxx","播放数组":"listitem\">&&info\">","播放列表":"<a&&</a>","倒序":"否","搜索url":"https://www.gs4x7nq4.com/vod/search/{wd}","搜索副标题":"class=\"boottom\"*<div>&&</div","分类":"电影$1#电视剧$2#综艺$3#动漫$4","分类url":"https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"}},
+{"key":"万家影视","name":"🧿万家┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.lwjtv.com/ystop/{cateId}/area/{area}/page/{catePg}/year/{year}.html","分类":"电视剧$dianshiju#电影$dianying#综艺$zongyi#动漫$dongmna"}},
+{"key":"电影驿站","name":"🧿电影┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.dyyz1.app/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#综艺$3#动漫$4"}},
 {
 "key": "csp_XBPQ_fxzcjy",
 "name": "💖柴姬┃XBPQ",
