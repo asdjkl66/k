@@ -123,6 +123,9 @@
 "changeable": 0,
 "ext": "./js/guoguo.js"
 },
+{"key":"爱奇异","name":"🚛爱奇艺┃解析","type":3,"api":"./js/drpy2.min.js","ext":"./js/aiqiyi.js"},
+{"key":"搜狗","name":"🚛搜狗┃解析","type":3,"api":"./js/drpy2.min.js","ext":"./js/caigou.js"},
+{"key":"360影视","name":"🚛360┃解析","type":3,"api":"./js/drpy2.min.js","ext":"./js/360影视.js"},
 {
 "key": "瓜子app",
 "name": "♨️瓜子┃APP",
@@ -159,6 +162,17 @@
 "ext": "./js/4k剧院.js"
 },
 {
+"key":"py_cctv",
+"name":"🇨🇳 CCTV┃影视",
+"type": 3,
+"searchable": 1,
+"changeable": 1,
+"quickSearch": 1,
+"api":"./py/py_cctv.py",
+"playerType": 2,
+"filterable": 1
+},
+{
 "key": "csp_视觉",
 "name": "🔭视觉┃PY",
 "type": 3,
@@ -168,36 +182,6 @@
 "api": "./py/shijue.py",
 "playerType": 2,
 "filterable": 1
-},
-{
-"key": "fxz布蕾",
-"name": "💖布蕾┃影视",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"order_num": 0,
-"changeable": 0,
-"ext": "./js/bulei4K.js"
-},
-{
-"key": "hipy_js_fxz旋风",
-"name": "💖旋风┃影视",
-"type": 3,
-"api": "./js/drpy2.min.js",
-"searchable": 1,
-"quickSearch": 1,
-"filterable": 1,
-"ext": "./js/分享XF.js"
-},
-{
-"key": "hipy_js_fxztg",
-"name": "💖糖果┃影视",
-"type": 3,
-"ua": "okhttp/3.15",
-"api": "./js/drpy2.min.js",
-"ext": "./js/分享糖果.js"
 },
 {
 "key":"小马影视",
@@ -340,13 +324,14 @@
 "changeable": 1
 },
 {
-"key": "苹果",
-"name": "🍎苹果┃不卡",
+"key": "小苹果",
+"name": "🍎苹果┃直连",
 "type": 3,
-"api": "csp_LiteApple",
+"api": "csp_Xpg",
 "searchable": 1,
 "quickSearch": 1,
-"changeable": 1
+"filterable": 1,
+"timeout": 10
 },
 {
 "key": "原创",
@@ -360,7 +345,7 @@
 "changeable": 1
 },
 //弹幕
-{"key":"糯米弹幕","name":"💘糯米｜弹幕","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
+{"key":"糯米弹幕","name":"💘糯米｜弹幕","type":3,"api":"csp_Nmys","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 {"key":"三六零弹幕","name":"💘三六┃弹幕","type":3,"api":"csp_Sp360","searchable":1,"filterable":1,"changeable":1,"ext":{"danmu":true}},
 //{"key":"南瓜弹幕","name":"💘南瓜┃弹幕","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
 {"key":"天天弹幕","name":"💘天天┃弹幕","type":3,"api": "csp_TianTian","searchable":1,"quickSearch":1,"filterable":1,"ext":{"danmu":true}},
@@ -396,15 +381,6 @@
 "quickSearch": 1,
 "changeable": 1,
 "ext": "https://auete.com/"
-},
-{
-"key": "csp_Ysj",
-"name": "🐙异界┃动漫",
-"type": 3,
-"api": "csp_Ysj",
-"playerType": 2,
-"searchable": 1,
-"quickSearch": 1
 },
 {
 "key": "csp_Dm84",
@@ -498,6 +474,36 @@
 {"key":"嫖嫖嫖","name":"🧿嫖嫖┃影视","type":3,"api":"csp_XBPQ","ext":{"主页url":"https://www.gs4x7nq4.com/","播放请求头":"User-Agent$Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/128.0.0.0Safari/537.36","简介":"⚠️康哥特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+</label>&&</div>","嗅探词":".mp4#.m3u8#.flv#.m3u8?#.mp4?","影片类型":"tags\">&&director\">","影片状态":"bottom\">&&</div>","二次截取":"videoList\":\\[&&\\]","数组":"{&&}[不包含:伦理剧]","图片":"https+://ywxohs.com+obs.gduamoe.com&&\",","标题":"vodName\":\"&&\"","副标题":"vodRemarks\":\"&&\"","链接":"https://www.gs4x7nq4.com/detail/+vodId\":&&,","导演":"导演:</div>&&主演","主演":"主演:</div>&&别名","线路标题":"xxx","播放数组":"listitem\">&&info\">","播放列表":"<a&&</a>","倒序":"否","搜索url":"https://www.gs4x7nq4.com/vod/search/{wd}","搜索副标题":"class=\"boottom\"*<div>&&</div","分类":"电影$1#电视剧$2#综艺$3#动漫$4","分类url":"https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"}},
 {"key":"万家影视","name":"🧿万家┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.lwjtv.com/ystop/{cateId}/area/{area}/page/{catePg}/year/{year}.html","分类":"电视剧$dianshiju#电影$dianying#综艺$zongyi#动漫$dongmna"}},
 {"key":"电影驿站","name":"🧿电影┃影视","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.dyyz1.app/vodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#综艺$3#动漫$4"}},
+{
+"key": "fxz布蕾",
+"name": "💖布蕾┃影视",
+"type": 3,
+"api": "./js/drpy2.min.js",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"order_num": 0,
+"changeable": 0,
+"ext": "./js/bulei4K.js"
+},
+{
+"key": "hipy_js_fxz旋风",
+"name": "💖旋风┃影视",
+"type": 3,
+"api": "./js/drpy2.min.js",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"ext": "./js/分享XF.js"
+},
+{
+"key": "hipy_js_fxztg",
+"name": "💖糖果┃影视",
+"type": 3,
+"ua": "okhttp/3.15",
+"api": "./js/drpy2.min.js",
+"ext": "./js/分享糖果.js"
+},
 {
 "key": "csp_XBPQ_fxzcjy",
 "name": "💖柴姬┃XBPQ",
