@@ -1,39 +1,72 @@
 🐼丨央视频道,#genre#
-CCTV-01,http://58.19.38.162:9901/tsfile/live/1000_1.m3u8?key=txiptv
-CCTV-02,http://58.19.38.162:9901/tsfile/live/1001_1.m3u8?key=txiptv
-CCTV-03,http://58.19.38.162:9901/tsfile/live/1002_1.m3u8?key=txiptv
-CCTV-04,http://58.19.38.162:9901/tsfile/live/1003_1.m3u8?key=txiptv
-CCTV-05,http://58.19.38.162:9901/tsfile/live/1004_1.m3u8?key=txiptv
-CCTV-05+,http://58.19.38.162:9901/tsfile/live/1014_1.m3u8?key=txiptv
-CCTV-06,http://58.19.38.162:9901/tsfile/live/1005_1.m3u8?key=txiptv
-CCTV-07,http://58.19.38.162:9901/tsfile/live/1006_1.m3u8?key=txiptv
-CCTV-08,http://58.19.38.162:9901/tsfile/live/1007_1.m3u8?key=txiptv
-CCTV-09,http://58.19.38.162:9901/tsfile/live/1008_1.m3u8?key=txiptv
-CCTV-10,http://58.19.38.162:9901/tsfile/live/1009_1.m3u8?key=txiptv
-CCTV-11,http://58.19.38.162:9901/tsfile/live/1010_1.m3u8?key=txiptv
-CCTV-12,http://58.19.38.162:9901/tsfile/live/1011_1.m3u8?key=txiptv
-CCTV-13,http://58.19.38.162:9901/tsfile/live/1012_1.m3u8?key=txiptv
-CCTV-14,http://58.19.38.162:9901/tsfile/live/1013_1.m3u8?key=txiptv
-CCTV-15,http://58.19.38.162:9901/tsfile/live/0015_1.m3u8?key=txiptv
-CCTV第一剧场,http://58.19.38.162:9901/tsfile/live/1035_1.m3u8?key=txiptv
-CCTV风云足球,http://58.19.38.162:9901/tsfile/live/1034_1.m3u8?key=txiptv
+CCTV1,http://kxrj.site:9125/6655/mg9.php?id=cctv1
+CCTV2,http://kxrj.site:9125/6655/mg9.php?id=cctv2
+CCTV3,http://kxrj.site:9125/6655/mg9.php?id=cctv3
+CCTV4,http://kxrj.site:9125/6655/mg9.php?id=cctv4
+CCTV4欧洲,http://kxrj.site:9125/6655/mg9.php?id=cctv4o
+CCTV4美洲,http://kxrj.site:9125/6655/mg9.php?id=cctv4a
+CCTV5,http://kxrj.site:9125/6655/mg9.php?id=cctv5
+CCTV5+,http://kxrj.site:9125/6655/mg9.php?id=cctv5p
+CCTV6,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2013693901/timeshift.m3u8?delay=0&cdn=5202
+CCTV6,http://kxrj.site:9125/6655/mg9.php?id=cctv6
+CCTV7,http://kxrj.site:9125/6655/mg9.php?id=cctv7
+CCTV8,http://kxrj.site:9125/6655/mg9.php?id=cctv8
+CCTV9,http://kxrj.site:9125/6655/mg9.php?id=cctv9
+CCTV10,http://kxrj.site:9125/6655/mg9.php?id=cctv10
+CCTV11,http://kxrj.site:9125/6655/mg9.php?id=cctv11
+CCTV12,http://kxrj.site:9125/6655/mg9.php?id=cctv12
+CCTV13,http://kxrj.site:9125/6655/mg9.php?id=cctv13
+CCTV14,http://kxrj.site:9125/6655/mg9.php?id=cctv14
+CCTV15,http://kxrj.site:9125/6655/mg9.php?id=cctv15
+CCTV17,http://kxrj.site:9125/6655/mg9.php?id=cctv17
 
-CCTV-01,http://39.165.196.149:9003//hls/1/index.m3u8
-CCTV-02,http://39.165.196.149:9003//hls/2/index.m3u8
-CCTV-03,http://39.165.196.149:9003//hls/3/index.m3u8
-CCTV-04,http://39.165.196.149:9003//hls/4/index.m3u8
-CCTV-05,http://39.165.196.149:9003//hls/5/index.m3u8
-CCTV-5+,http://39.165.196.149:9003//hls/16/index.m3u8
-CCTV-06,http://39.165.196.149:9003//hls/6/index.m3u8
-CCTV-07,http://39.165.196.149:9003//hls/7/index.m3u8
-CCTV-08,http://39.165.196.149:9003//hls/8/index.m3u8
-CCTV-09,http://39.165.196.149:9003//hls/9/index.m3u8
-CCTV-10,http://39.165.196.149:9003//hls/10/index.m3u8
-CCTV-11,http://39.165.196.149:9003//hls/11/index.m3u8
-CCTV-12,http://39.165.196.149:9003//hls/12/index.m3u8
-CCTV-13,http://39.165.196.149:9003//hls/13/index.m3u8
-CCTV-14,http://39.165.196.149:9003//hls/14/index.m3u8
-CCTV-15,http://39.165.196.149:9003//hls/15/index.m3u8
+CGT纪录,http://kxrj.site:9125/6655/mg9.php?id=cgtnjl
+CGT西语,http://kxrj.site:9125/6655/mg9.php?id=cgtne
+CGT阿语,http://kxrj.site:9125/6655/mg9.php?id=cgtna
+CGT法语,http://kxrj.site:9125/6655/mg9.php?id=cgtnf
+CGT俄语,http://kxrj.site:9125/6655/mg9.php?id=cgtnr
+CCTV1,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv1
+CCTV2,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv2
+CCTV3,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv3
+CCTV4,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv4
+CCTV4美洲,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv4a
+CCTV4欧洲,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv4o
+CCTV5,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv5
+CCTV5+,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv5p
+CCTV6,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv6
+CCTV7,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv7
+CCTV8,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv8
+CCTV9,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv9
+CCTV10,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv10
+CCTV11,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv11
+CCTV12,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv12
+CCTV13,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv13
+CCTV14,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv14
+CCTV15,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv15
+CCTV17,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cctv17
+CCTV发现之旅,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=fxzl
+CCTV老故事,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=lgs
+CCTV中学生,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=zxs
+CGTN,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cgtn
+CGTN纪录,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cgtnjl
+CCTV西班牙语,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cgtne
+CCTV法语,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cgtnf
+CCTV阿拉伯语,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cgtna
+CCTV俄语,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cgtnr
+
+CCTV1,http://itms4.sdlk.vip:6721/hls/200/index.m3u8
+CCTV2,http://itms4.sdlk.vip:6721/hls/217/index.m3u8
+CCTV4,http://itms4.sdlk.vip:6721/hls/216/index.m3u8
+CCTV5,http://itms4.sdlk.vip:6721/hls/202/index.m3u8
+CCTV6,http://itms4.sdlk.vip:6721/hls/203/index.m3u8
+CCTV7,http://itms4.sdlk.vip:6721/hls/215/index.m3u8
+CCTV8,http://itms4.sdlk.vip:6721/hls/204/index.m3u8
+CCTV10,http://itms4.sdlk.vip:6721/hls/213/index.m3u8
+CCTV11,http://itms4.sdlk.vip:6721/hls/205/index.m3u8
+CCTV13,http://itms4.sdlk.vip:6721/hls/206/index.m3u8
+CCTV12,http://itms4.sdlk.vip:6721/hls/212/index.m3u8
+CCTV14,http://itms4.sdlk.vip:6721/hls/211/index.m3u8
+CCTV15,http://itms4.sdlk.vip:6721/hls/207/index.m3u8
 
 CCTV-01 综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 CCTV-02 财经,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225588/index.m3u8
@@ -145,35 +178,84 @@ CETV 1 中国教育,http://[2409:8087:5e00:24::1e]:6060/000000001000/50000000020
 CETV 2 中国教育,http://[2409:8087:5e00:24::1e]:6060/000000001000/5000000011000031126/index.m3u8?channel-id=bestzb&Contentid=5000000011000031126&livemode=1&stbId=3
 
 🐼丨卫视频道,#genre#
-湖南卫视,http://58.19.38.162:9901/tsfile/live/1016_1.m3u8?key=txiptv
-浙江卫视,http://58.19.38.162:9901/tsfile/live/1020_1.m3u8?key=txiptv
-江苏卫视,http://58.19.38.162:9901/tsfile/live/1019_1.m3u8?key=txiptv
-北京卫视,http://58.19.38.162:9901/tsfile/live/1017_1.m3u8?key=txiptv
-东方卫视,http://58.19.38.162:9901/tsfile/live/1018_1.m3u8?key=txiptv
-安徽卫视,http://58.19.38.162:9901/tsfile/live/1021_1.m3u8?key=txiptv
-广东卫视,http://58.19.38.162:9901/tsfile/live/1022_1.m3u8?key=txiptv
-深圳卫视,http://58.19.38.162:9901/tsfile/live/1023_1.m3u8?key=txiptv
-辽宁卫视,http://58.19.38.162:9901/tsfile/live/1027_1.m3u8?key=txiptv
-山东卫视,http://58.19.38.162:9901/tsfile/live/1025_1.m3u8?key=txiptv
-天津卫视,http://58.19.38.162:9901/tsfile/live/1024_1.m3u8?key=txiptv
-东南卫视,http://58.19.38.162:9901/tsfile/live/1028_1.m3u8?key=txiptv
-贵州卫视,http://58.19.38.162:9901/tsfile/live/1030_1.m3u8?key=txiptv
-河南卫视,http://58.19.38.162:9901/tsfile/live/1026_1.m3u8?key=txiptv
-湖北卫视,http://58.19.38.162:9901/tsfile/live/1015_1.m3u8?key=txiptv
-江西卫视,http://58.19.38.162:9901/tsfile/live/1029_1.m3u8?key=txiptv
-金鹰卡通,http://58.19.38.162:9901/tsfile/live/1031_1.m3u8?key=txiptv
-快乐垂钓,http://58.19.38.162:9901/tsfile/live/1033_1.m3u8?key=txiptv
-家庭影院,http://58.19.38.162:9901/tsfile/live/1036_1.m3u8?key=txiptv
-动作电影,http://58.19.38.162:9901/tsfile/live/1037_1.m3u8?key=txiptv
-影迷电影,http://58.19.38.162:9901/tsfile/live/1038_1.m3u8?key=txiptv
-金鹰纪实,http://58.19.38.162:9901/tsfile/live/1032_1.m3u8?key=txiptv
-
+东方卫视,http://kxrj.site:9125/6655/mg9.php?id=dfws
+吉林卫视,http://kxrj.site:9125/6655/mg9.php?id=jlws
+青海卫视,http://kxrj.site:9125/6655/mg9.php?id=qhws
+陕西卫视,http://kxrj.site:9125/6655/mg9.php?id=sxws
+湖北卫视,http://kxrj.site:9125/6655/mg9.php?id=hubws
+江西卫视,http://kxrj.site:9125/6655/mg9.php?id=jxws
+江苏卫视,http://kxrj.site:9125/6655/mg9.php?id=jsws
+广东卫视,http://kxrj.site:9125/6655/mg9.php?id=gdws
+湾区卫视,http://kxrj.site:9125/6655/mg9.php?id=dwqws
+海南卫视,http://kxrj.site:9125/6655/mg9.php?id=hinws
 兵团卫视,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=0&cdn=5202
 中国教育,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022823801/timeshift.m3u8?delay=0&cdn=5202
-
-兵团卫视,http://mobilelive-timeshift.ysp.cctv.cn/timeshift/ysp/2022606701/timeshift.m3u8?delay=m3u8
-广西卫视,http://39.165.196.149:9003//hls/17/index.m3u8
-河南卫视,http://39.165.196.149:9003//hls/18/index.m3u8
+重庆卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=cqws
+吉林卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=jlws
+辽宁卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=lnws
+内蒙古卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=nmws
+宁夏卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=nxws
+甘肃卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=gsws
+青海卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=qhws
+陕西卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=sxws
+山东卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=sdws
+河南卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=hnws
+湖北卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=hubws
+湖南卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=hunws
+江西卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=jxws
+江苏卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=jsws
+东南卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=dnws
+海峡卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=hxws
+广东卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=gdws
+大湾区卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=dwqws
+广西卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=gxws
+云南卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=ynws
+贵州卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=gzws
+新疆卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=xjws
+西藏卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=xzws
+海南卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=hinws
+东方卫视,http://8.138.90.107/公众号【睡眼迷离的猫】/mg.php?id=dfws
+山东卫视,http://itms4.sdlk.vip:6721/hls/208/index.m3u8
+山东齐鲁,http://itms4.sdlk.vip:6721/hls/209/index.m3u8
+山东新闻,http://itms4.sdlk.vip:6721/hls/235/index.m3u8
+山东体育,http://itms4.sdlk.vip:6721/hls/239/index.m3u8
+济南综合,http://itms4.sdlk.vip:6721/hls/210/index.m3u8
+齐鲁频道,http://itms4.sdlk.vip:6721/hls/209/index.m3u8
+济南新闻,http://itms4.sdlk.vip:6721/hls/210/index.m3u8
+北京卫视,http://itms4.sdlk.vip:6721/hls/218/index.m3u8
+东方卫视,http://itms4.sdlk.vip:6721/hls/219/index.m3u8
+东南卫视,http://itms4.sdlk.vip:6721/hls/220/index.m3u8
+甘肃卫视,http://itms4.sdlk.vip:6721/hls/221/index.m3u8
+广东卫视,http://itms4.sdlk.vip:6721/hls/222/index.m3u8
+广西卫视,http://itms4.sdlk.vip:6721/hls/223/index.m3u8
+贵州卫视,http://itms4.sdlk.vip:6721/hls/224/index.m3u8
+海南卫视,http://itms4.sdlk.vip:6721/hls/225/index.m3u8
+河南卫视,http://itms4.sdlk.vip:6721/hls/226/index.m3u8
+黑龙江卫视,http://itms4.sdlk.vip:6721/hls/227/index.m3u8
+吉林卫视,http://itms4.sdlk.vip:6721/hls/228/index.m3u8
+江苏卫视,http://itms4.sdlk.vip:6721/hls/229/index.m3u8
+江西卫视,http://itms4.sdlk.vip:6721/hls/230/index.m3u8
+金鹰卡视,http://itms4.sdlk.vip:6721/hls/231/index.m3u8
+内蒙古卫视,http://itms4.sdlk.vip:6721/hls/232/index.m3u8
+宁夏卫视,http://itms4.sdlk.vip:6721/hls/233/index.m3u8
+青海卫视,http://itms4.sdlk.vip:6721/hls/234/index.m3u8
+山东公共,http://itms4.sdlk.vip:6721/hls/235/index.m3u8
+天津,http://itms4.sdlk.vip:6721/hls/236/index.m3u8
+湖北,http://itms4.sdlk.vip:6721/hls/237/index.m3u8
+辽宁,http://itms4.sdlk.vip:6721/hls/238/index.m3u8
+山东体育,http://itms4.sdlk.vip:6721/hls/239/index.m3u8
+山西卫视,http://itms4.sdlk.vip:6721/hls/240/index.m3u8
+陕西卫视,http://itms4.sdlk.vip:6721/hls/241/index.m3u8
+深圳卫视,http://itms4.sdlk.vip:6721/hls/242/index.m3u8
+四川卫视,http://itms4.sdlk.vip:6721/hls/243/index.m3u8
+西藏卫视,http://itms4.sdlk.vip:6721/hls/244/index.m3u8
+炫动卡视,http://itms4.sdlk.vip:6721/hls/245/index.m3u8
+优漫卡视,http://itms4.sdlk.vip:6721/hls/246/index.m3u8
+云南卫视,http://itms4.sdlk.vip:6721/hls/247/index.m3u8
+浙江卫视,http://itms4.sdlk.vip:6721/hls/248/index.m3u8
+重庆卫视,http://itms4.sdlk.vip:6721/hls/249/index.m3u8
+湖南卫视,http://itms4.sdlk.vip:6721/hls/252/index.m3u8
+河北卫视,http://itms4.sdlk.vip:6721/hls/254/index.m3u8
 
 东南卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
 东方卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225735/index.m3u8
@@ -362,60 +444,61 @@ CCTV17-农业农村,http://222.134.245.16:9901/tsfile/live/0019_1.m3u8
 山东体育,http://222.134.245.16:9901/tsfile/live/1006_1.m3u8
 
 🐼丨港澳台　,#genre#
+
+TVB Plus,http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+TVBS,http://aktv.top/AKTV/live/aktv/tvbs/AKTV.m3u8
+TVBS-新闻台,http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
+tvN,http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
+中天亚洲台,http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
+中天新闻台,http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
+中视,http://aktv.top/AKTV/live/aktv/null-10/AKTV.m3u8
+千禧经典台(HK),http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
+娱乐新闻台(HK),http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
+寰宇新闻台,http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
+日本全天新闻,http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
+明珠剧集台(北美),http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
+明珠台,http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
+无线新闻台,http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+美亚电影台(HK),http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+翡翠剧集台(北美),http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
+翡翠台,http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
+翡翠综合台(北美),http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
+华视,http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
+靖天电影台,http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
 凤凰中文,http://aktv.top/AKTV/live/aktv/null-3/AKTV.m3u8
 凤凰资讯,http://aktv.top/AKTV/live/aktv/null-4/AKTV.m3u8
 凤凰香港,http://aktv.top/AKTV/live/aktv/null-5/AKTV.m3u8
-中天新闻,http://aktv.top/AKTV/live/aktv/null-8/AKTV.m3u8
-无线新闻,http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-无线翡翠,http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-无线明珠,http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
-无线赛马,http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
-28ai赛马,http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
-黄金翡翠,http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
-无线娱乐,http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
-无线经典,http://aktv.top/AKTV/live/aktv/null-15/AKTV.m3u8
-无线亚剧,http://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
-无线翡剧,http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-无线明剧,http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
-无线J1美,http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
-无线新美,http://aktv.top/AKTV/live/aktv/null-20/AKTV.m3u8
-TVBs新闻,http://aktv.top/AKTV/live/aktv/tvbs-1/AKTV.m3u8
-TVBs闽南,http://aktv.top/AKTV/live/aktv/tvbs/AKTV.m3u8
-TVB星河,http://aktv.top/AKTV/live/aktv/tvb/AKTV.m3u8
-寰宇新闻,http://aktv.top/AKTV/live/aktv/null-9/AKTV.m3u8
-三立新闻,http://aktv.top/AKTV/live/aktv/null-14/AKTV.m3u8
-三立综合,http://aktv.top/AKTV/live/aktv/null-13/AKTV.m3u8
-中视闽南,http://aktv.top/AKTV/live/aktv/null-10/AKTV.m3u8
-华视闽南,http://aktv.top/AKTV/live/aktv/null-11/AKTV.m3u8
-中天亚洲,http://aktv.top/AKTV/live/aktv/null-12/AKTV.m3u8
-靖天电影,http://aktv.top/AKTV/live/aktv/null-6/AKTV.m3u8
-龙华电影,http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
-龙华日韩,http://aktv.top/AKTV/live/aktv/null-22/AKTV.m3u8
-TVN韩综,http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
-Rock影综,http://aktv.top/AKTV/live/aktv/rockaction/AKTV.m3u8
-Plus综合,http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
-pₒₚc电影,http://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
-Now星影,http://aktv.top/AKTV/live/aktv/now/AKTV.m3u8
-美亚电影,http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+黄金翡翠台,http://aktv.top/AKTV/live/aktv/null-21/AKTV.m3u8
+龙华日韩台,http://aktv.top/AKTV/live/aktv/null-22/AKTV.m3u8
+龙华经典台,http://aktv.top/AKTV/live/aktv/null-7/AKTV.m3u8
+龙华电影台,http://aktv.top/AKTV/live/aktv/null-23/AKTV.m3u8
+AXN,http://aktv.top/AKTV/live/aktv2/axn/AKTV.m3u8
+i-Fun 动漫台,http://aktv.top/AKTV/live/aktv2/ifun/AKTV.m3u8
+Love Nature HD,http://aktv.top/AKTV/live/aktv2/lovenaturehd/AKTV.m3u8
+Now星影台,http://aktv.top/AKTV/live/aktv2/now/AKTV.m3u8
+Now爆谷台,http://aktv.top/AKTV/live/aktv2/now-1/AKTV.m3u8
 viutv 99,http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
 viutv6 96,http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
-爆谷台,http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
-Channel 5 HD,http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
-Channel 8 HD,http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
-Channel U HD,http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
-Animax-HK,http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
-C+台,http://aktv.top/AKTV/live/aktv3/c/AKTV.m3u8
+无线新闻台(北美)	,http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
+东森新闻,http://aktv.top/AKTV/live/aktv2/null/AKTV.m3u8
+Animax(HK),http://aktv.top/AKTV/live/aktv3/animaxhk/AKTV.m3u8
+Astro AEC,http://aktv.top/AKTV/live/aktv3/astroaec/AKTV.m3u8
+Astro iQIYI,http://aktv.top/AKTV/live/aktv3/astroiqiyi/AKTV.m3u8
+Astro Xing He ,http://aktv.top/AKTV/live/aktv3/astroxinghe/AKTV.m3u8
 DW,http://aktv.top/AKTV/live/aktv3/dw/AKTV.m3u8
 France 24,http://aktv.top/AKTV/live/aktv3/france24/AKTV.m3u8
 KIX,http://aktv.top/AKTV/live/aktv3/kix/AKTV.m3u8
 Love Nature HD,http://aktv.top/AKTV/live/aktv3/lovenaturehd/AKTV.m3u8
 NHK World-Japan,http://aktv.top/AKTV/live/aktv3/nhkworldjapan/AKTV.m3u8
+NHK东京総合,http://aktv.top/AKTV/live/aktv3/nhk/AKTV.m3u8
 Nick Jr,http://aktv.top/AKTV/live/aktv3/nickjr/AKTV.m3u8
 Nickelodeon,http://aktv.top/AKTV/live/aktv3/nickelodeon/AKTV.m3u8
-ROCK Action,http://aktv.top/AKTV/live/aktv3/rockaction/AKTV.m3u8
 Thrill,http://aktv.top/AKTV/live/aktv3/thrill/AKTV.m3u8
 ZooMoo,http://aktv.top/AKTV/live/aktv3/zoomoo/AKTV.m3u8
-tvN,http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
+亚洲新闻台,http://aktv.top/AKTV/live/aktv3/null-3/AKTV.m3u8
+东方卫视国际频道,http://aktv.top/AKTV/live/aktv3/null/AKTV.m3u8
+无线卫星新闻台,http://aktv.top/AKTV/live/aktv3/null-2/AKTV.m3u8
+翡翠台4K,http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
 
 莲花卫视,http://php.jdshipin.com:8880/amlh.php
 亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612417/live.m3u8
@@ -428,7 +511,13 @@ tvN,http://aktv.top/AKTV/live/aktv/tvn/AKTV.m3u8
 美亚电影,http://php.jdshipin.com:8880/TVOD/iptv.php?id=meiya
 重温经典,http://php.jdshipin.com:8880/TVOD/iptv.php?id=cwjd
 Astr剧集,http://php.jdshipin.com:8880/TVOD/iptv.php?id=aod
-
+28 AI 智慧赛马,http://aktv.top/AKTV/live/aktv/28ai/AKTV.m3u8
+Channel 5 HD,http://aktv.top/AKTV/live/aktv/channel5hd/AKTV.m3u8
+Channel 8 HD,http://aktv.top/AKTV/live/aktv/channel8hd/AKTV.m3u8
+Channel U HD,http://aktv.top/AKTV/live/aktv/channeluhd/AKTV.m3u8
+myTV SUPER 18台,http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
+PopC,http://aktv.top/AKTV/live/aktv/popc/AKTV.m3u8
+ROCK Action,http://aktv.top/AKTV/live/aktv/rockaction/AKTV.m3u8
 🐼丨影视综合,#genre#
 绍兴影视,http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 烟台影视,http://live.yantaitv.cn/live/e9f1d9045d474c31884d13fa4ffbbd16/a4a9b3704d854756907845107cc56129.m3u8
