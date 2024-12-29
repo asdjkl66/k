@@ -2,11 +2,11 @@
   "storeHouse": [
 {
   "sourceName":"🐲康哥｜自用🐲",
-  "sourceUrl":"https://codeberg.org/Stephen2024/TV/kangge/raw/branch/main/local.json"
+  "sourceUrl":"https://codeberg.org/Stephen2024/TV/raw/branch/main/kangge/local.json"
 },
 {
   "sourceName": "🔅康哥｜网络多仓",
-  "sourceUrl": "https://codeberg.org/Stephen2024/TV/kangge/raw/branch/main/kg.json"
+  "sourceUrl": "https://codeberg.org/Stephen2024/TV/raw/branch/main/kangge/kangge.json"
 },
 {
   "sourceName": "🍒欧歌｜网络多仓",
