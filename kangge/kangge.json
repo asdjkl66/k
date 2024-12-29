@@ -1,0 +1,68 @@
+{
+  "storeHouse": [
+{
+  "sourceName":"🐲康哥｜自用🐲",
+  "sourceUrl":"https://codeberg.org/Stephen2024/TV/kangge/raw/branch/main/local.json"
+},
+{
+  "sourceName": "🔅康哥｜网络多仓",
+  "sourceUrl": "https://codeberg.org/Stephen2024/TV/kangge/raw/branch/main/kg.json"
+},
+{
+  "sourceName": "🍒欧歌｜网络多仓",
+  "sourceUrl": "https://tv.nxog.top/nxog/ou1.php?b=tv"
+},
+{
+  "sourceName": "🎈拾光｜网络多仓",
+  "sourceUrl": "https://gitlab.com/xmbjm/ck/-/raw/main/ck.json"
+},
+{
+  "sourceName": "🎸码点｜网络多仓",
+  "sourceUrl": "http://120.79.4.185/dc.json"
+},
+{
+  "sourceName": "💝开心｜网络多仓",
+  "sourceUrl": "http://kxrj.site:55"
+},
+{
+  "sourceName": "💎七星｜网络多仓",
+  "sourceUrl": "https://qixing.myhkw.com/DC.txt"
+},
+{
+  "sourceName": "🐳潇洒｜网络多仓",
+  "sourceUrl": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox_warehouse/main/warehouse.txt"
+},
+{
+  "sourceName": "⛄云星｜网络多仓",
+  "sourceUrl": "http://itvbox.cc/可视仓库/在线仓"
+},
+{
+  "sourceName": "🌻恒星｜网络多仓",
+  "sourceUrl": "http://恒星.net/hxck1.txt"
+},
+{
+  "sourceName": "🎱挺好｜网络多仓",
+  "sourceUrl": "http://ztha.top/TVBox/GYCK.json"
+},
+{
+  "sourceName": "🍁蚂蚁｜网络多仓",
+  "sourceUrl": "https://pan.miaogongzi.net/f/pNFE/%E8%9A%82%E8%9A%81%E4%BB%93%E5%BA%931.txt"
+},
+{
+  "sourceName": "🌱青木｜网络多仓",
+  "sourceUrl": "http://530.my3v.work/qm.json"
+},
+{
+  "sourceName": "🌀奇奇｜网络多仓",
+  "sourceUrl": "https://ghproxy.net/https://raw.githubusercontent.com/yyfxz/qqtv/main/qq.json"
+},
+{
+  "sourceName": "🌸茶佬｜网络多仓",
+  "sourceUrl": "https://jihulab.com/z-blog/xh2/-/raw/main/t3.json"
+},
+{
+  "sourceName": "💃优质｜网络多仓",
+  "sourceUrl": "https://mirror.ghproxy.com/raw.githubusercontent.com/sf467/Tvbox1/main/优质.json"
+}
+]
+}

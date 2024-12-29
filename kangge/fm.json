@@ -1,0 +1,23 @@
+﻿{
+  "urls": [
+{"name":"🐲自用｜本地接口🐲","url":"file://tvbox/fyk.json"},
+{"name":"🎭短剧频道｜本地接口","url":"file://tvbox/短剧频道/api.json"},
+{"name":"🍃荷城茶秀｜本地接口","url":"file://tvbox/荷城茶秀/api.json"},
+{"name":"💄香雅情｜本地接口","url":"file://tvbox/香雅情/api.json"},
+{"name":"🍚饭太硬｜本地接口","url":"file://tvbox/饭太硬/api.json"},
+{"name":"🐮放牛娃｜本地接口","url":"file://tvbox/王二小/api.json"},
+{"name":"🦉欧歌｜本地接口","url":"file://tvbox/欧歌/api.json"},
+{"name":"💫PG｜本地接口","url":"file://tvbox/PG/jsm.json"},
+{"name":"⭕️OK｜本地接口","url":"file://tvbox/OK/api.json"},
+{"name":"🐯肥猫｜本地接口","url":"file://tvbox/肥猫/api.json"},
+{"name":"🌾小米｜本地接口","url":"file://tvbox/小米/api.json"},
+{"name":"🌪南风｜本地接口","url":"file://tvbox/南风/api.json"},
+{"name": "💢骚零｜本地接口","url":"file://tvbox/骚零/api.json"},
+{"name":"🎯无意｜本地接口","url":"file://tvbox/wuyi/wuyi.json"},
+{"name":"🪢巧技｜本地接口","url":"file://tvbox/qiaoji/qiaoji.json"},
+{"name":"🌱春盈｜本地接口","url":"file://tvbox/chunying/chunying.json"},
+{"name":"❤️‍🩹天天开心｜本地接口","url":"file://tvbox/天天开心/api.json"},
+{"name":"🐇少儿频道｜本地接口","url":"file://tvbox/少儿频道/api.json"},
+{"name":"🤖动漫频道｜本地接口","url":"file://tvbox/动漫频道/api.json"}
+]
+}
