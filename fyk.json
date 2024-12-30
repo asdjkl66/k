@@ -44,7 +44,7 @@
 "sites":[
 {
 "key":"豆瓣",
-"name":"🐲豆瓣┃更新",
+"name":"🐲豆瓣┃视频",
 "type": 3,
 "api": "csp_Douban",
 "searchable": 0,
@@ -54,13 +54,13 @@
 {"key":"配置中心","name":"🐲通用┃配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
 {
 "key": "本地",
-"name": "🖥本地｜视频",
+"name": "🖥本地┃视频",
 "type": 3,
 "api": "csp_LocalFile"
 },
 {
-"key": "🐉电影推荐",
-"name": "🐉电影┃推荐",
+"key": "🐉推荐",
+"name": "🐉热映┃推荐",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -90,7 +90,7 @@
 "播放标题": ">&&<",
 "播放链接": "href=\"&&\"",
 "嗅探词": ".m3u8#video_mp4#tos-#.mp4#cdn.123pan.cn#huoshanvod.com",
-"影片地区": "康哥专享",
+"影片地区": "专享",
 "影片年代": "class=\"detail-tags-item\">&&</a>",
 "影片类型": "<div class=\"detail-tags fs-margin-top fs-margin-bottom\">&&立即播放",
 "影片状态": "备注:&&</div>",
@@ -137,7 +137,7 @@
 {"key":"360影视","name":"🚛360┃解析","type":3,"api":"./js/drpy2.min.js","ext":"./js/360影视.js"},
 {
 "key": "瓜子app",
-"name": "♨️瓜子┃剧院",
+"name": "♨️瓜子┃APP",
 "type": 3,
 "api": "./js/drpy2.min.js",
 "searchable": 1,
@@ -183,7 +183,7 @@
 },
 {
 "key": "csp_视觉",
-"name": "🔭视觉┃剧院",
+"name": "🔭视觉┃影视",
 "type": 3,
 "searchable": 1,
 "changeable": 1,
@@ -205,16 +205,16 @@
 },
 {"key":"荐片","name":"💡荐片｜影视","type":3,"api":"csp_Jianpian","playerType":1,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"天天","name":"💡天天┃影视","type":3,"api":"csp_AppTT","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"韩小圈","name":"💡韩小｜影视","type":3,"api":"csp_HanXiaoQuan","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"快看影视","name":"💡快看｜影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"热播影视","name":"💡热播｜影视","type":3,"api":"csp_AppRB","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"低端影视","name":"💡低端｜影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"骚火影视1","name":"💡骚火｜影视","type":3,"api":"csp_SaoHuo","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"农民影视","name":"💡农民｜影视","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"机器人","name":"💡机器｜影视","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"韩小圈","name":"💡韩小┃影视","type":3,"api":"csp_HanXiaoQuan","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"快看影视","name":"💡快看┃影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"热播影视","name":"💡热播┃影视","type":3,"api":"csp_AppRB","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"低端影视","name":"💡低端┃影视","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"骚火影视1","name":"💡骚火┃影视","type":3,"api":"csp_SaoHuo","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"农民影视","name":"💡农民┃影视","type":3,"api":"csp_Nmyswv","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"机器人","name":"💡机器┃影视","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1},
 {
 "key": "金牌影视",
-"name": "💡金牌｜影视",
+"name": "💡金牌┃影视",
 "type": 3,
 "api": "csp_WebJP",
 "searchable": 1,
@@ -223,7 +223,7 @@
 },
 {
 "key": "真心影视",
-"name": "💡真心｜影视",
+"name": "💡真心┃影视",
 "type": 3,
 "api": "csp_WebGZ",
 "searchable": 1,
@@ -232,7 +232,7 @@
 },
 {
 "key": "1905",
-"name": "💡1905｜影视",
+"name": "💡1905┃影视",
 "type": 3,
 "api": "csp_Web1905",
 "searchable": 1,
@@ -241,7 +241,7 @@
 }, 
 {
 "key": "瓜子影视1",
-"name": "💡瓜子｜影视",
+"name": "💡瓜子┃影视",
 "type": 3,
 "api": "csp_Gz360",
 "searchable": 1,
@@ -250,7 +250,7 @@
 },
 {
 "key": "饺子影视",
-"name": "💡饺子｜影视",
+"name": "💡饺子┃影视",
 "type": 3,
 "api": "csp_Jiaozi",
 "searchable": 1,
@@ -259,7 +259,7 @@
 },
 {
 "key": "洽洽影视",
-"name": "💡洽洽｜剧院",
+"name": "💡洽洽┃影视",
 "type": 3,
 "api": "csp_AppGZ",
 "searchable": 1,
@@ -268,26 +268,26 @@
 },
 {
 "key": "忍者影视",
-"name": "💡忍者｜影视",
+"name": "💡忍者┃影视",
 "type": 3,
 "api": "csp_AppRZ",
 "searchable": 1,
 "quickSearch": 1,
 "filterable": 1
 },
-{"key":"星星影视1","name":"💡星星｜影视","type":3,"api":"csp_AppZX","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaLK5slLrVkVKpWWFo0f0XrIG4I/KFx5RJf8ee99ij0p6UXFSzynUUoQn+CMLXQSrHrks8dKtjc6OXESxcMCKZWCfIZLnBIHXbQkKgwbMN1ancbdBF0wmVANCCrQQTm2Nd1Q68RP63nGTicCesKtoaOomHl8T0c2P6T1te5WMsJkNyDa8tsgx5q0uDyR6+QqFAx0l92nhDqQ8"},
-{"key":"csp_南果","name":"💡南果｜影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cDovLzExMS4xODAuMjA2LjEyNzozMzAiLAogICAgICAgICJkYXRhS2V5IjogInZhM2hmNzkzbjNDRmR2RlMiLAogICAgICAgICJkYXRhSXYiOiAidmEzaGY3OTNuM0NGZHZGUyIsCiAgICAgICAgImRldmljZUlkIjogIjIzODEzYjE1YmY3YmQzNTljYjhkMzJmOWQwMjg2MjQ0YyIKICB9"},
-{"key":"全网影视","name":"💡全网｜影视","type":3,"api":"csp_Quanwk","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.91qkw.com"},
-{"key":"奇优影视","name":"💡奇优｜影视","type":3,"api":"csp_Qiyou","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.dyxz2.com/"},
-{"key":"素白白","name":"💡白白｜影视","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://subaibai.com"},
-{"key":"兄弟影视","name":"💡兄弟｜影视","type":3,"api":"csp_AppGetApp","searchable":1,"quickSearch":1,"filterable":1,"ext":"KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA=="},
-{"key":"移动云盘","name":"💡移动｜影视","type":3,"api":"csp_YDjisu","searchable":1,"changeable":1},
-{"key":"cspMiTuApp","name":"💡米兔｜影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="},
-{"key":"csp电影","name":"💡电影｜影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="},
-{"key":"cszhufan","name":"💡追饭｜影视","searchable":1,"quickSearch":1,"type":3,"api":"csp_MITO","ext":{"url":"http://103.88.35.251:8989","dataKey":"aassddwwxxllsx1x","playKey":"bbssqdbbssll25sx","version":"2.1.0"}},
+{"key":"星星影视1","name":"💡星星┃影视","type":3,"api":"csp_AppZX","searchable":1,"quickSearch":0,"filterable":0,"ext":"KhY021WelCEl+6MsvwnzaLK5slLrVkVKpWWFo0f0XrIG4I/KFx5RJf8ee99ij0p6UXFSzynUUoQn+CMLXQSrHrks8dKtjc6OXESxcMCKZWCfIZLnBIHXbQkKgwbMN1ancbdBF0wmVANCCrQQTm2Nd1Q68RP63nGTicCesKtoaOomHl8T0c2P6T1te5WMsJkNyDa8tsgx5q0uDyR6+QqFAx0l92nhDqQ8"},
+{"key":"csp_南果","name":"💡南果┃影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cDovLzExMS4xODAuMjA2LjEyNzozMzAiLAogICAgICAgICJkYXRhS2V5IjogInZhM2hmNzkzbjNDRmR2RlMiLAogICAgICAgICJkYXRhSXYiOiAidmEzaGY3OTNuM0NGZHZGUyIsCiAgICAgICAgImRldmljZUlkIjogIjIzODEzYjE1YmY3YmQzNTljYjhkMzJmOWQwMjg2MjQ0YyIKICB9"},
+{"key":"全网影视","name":"💡全网┃影视","type":3,"api":"csp_Quanwk","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.91qkw.com"},
+{"key":"奇优影视","name":"💡奇优┃影视","type":3,"api":"csp_Qiyou","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.dyxz2.com/"},
+{"key":"素白白","name":"💡白白┃影视","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://subaibai.com"},
+{"key":"兄弟影视","name":"💡兄弟┃影视","type":3,"api":"csp_AppGetApp","searchable":1,"quickSearch":1,"filterable":1,"ext":"KhYl01Kekjo9vLs09V+rOtv/6QaOFwdQp2ne4h22GLkT99eCXh9SJ/lGZNM8zgk1OnFWx0zBQ9Y/9mAjQB67LaEp7Yj7w9SYBEjFbdPjKy3EHp7uBIHXVI7/dZ4r/dJapz6ihlWwqY2KlGuarL/+9suxO4ZJFOg1OxN+dTrTbi2Muff1CmBkNfrY+sENTEbHAsgpQRtycD7pjvPePZ1AgNT8ZuBCcf4lIM858OSMK4u76tpjIfqzVA=="},
+{"key":"移动云盘","name":"💡移动┃影视","type":3,"api":"csp_YDjisu","searchable":1,"changeable":1},
+{"key":"cspMiTuApp","name":"💡米兔┃影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9reTEwODAudG9wIiwKICAgICAgICAiZGF0YUtleSI6ICJlNTlkNDRiMmVlZjAzYmEyIiwKICAgICAgICAiZGF0YUl2IjogImU1OWQ0NGIyZWVmMDNiYTIiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgfQ=="},
+{"key":"csp电影","name":"💡电影┃影视","type":3,"api":"csp_MITU","ext":"ewogICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9hcGlhcHBkeXl6dHZ5eWRzcXdkeS42OC5neTo1Njg5IiwKICAgICAgICAiZGF0YUtleSI6ICJkeXl6dHZhcGlhcHB5eWRzIiwKICAgICAgICAiZGF0YUl2IjogImR5eXp0dmFwaWFwcHl5ZHMiLAogICAgICAgICJkZXZpY2VJZCI6ICIyMzgxM2IxNWJmN2JkMzU5Y2I4ZDMyZjlkMDI4NjI0NGMiCiAgICAgIH0="},
+{"key":"cszhufan","name":"💡追饭┃影视","searchable":1,"quickSearch":1,"type":3,"api":"csp_MITO","ext":{"url":"http://103.88.35.251:8989","dataKey":"aassddwwxxllsx1x","playKey":"bbssqdbbssll25sx","version":"2.1.0"}},
 {
 "key": "西瓜视频",
-"name": "🍉西瓜｜视频",
+"name": "🍉西瓜┃视频",
 "type": 3,
 "api": "csp_AmuXiguaV2",
 "searchable": 1,
@@ -451,7 +451,7 @@
 },
 {
 "key": "沐沐电影",
-"name": "⚡沐沐┃影视",
+"name": "⚡沐沐┃电影",
 "type": 3,
 "api": "csp_AppYsV2",
 "searchable": 1,
@@ -461,7 +461,7 @@
 },
 {
 "key": "奴娜影视",
-"name": "⚡奴娜┃影视",
+"name": "⚡奴娜┃电影",
 "type": 3,
 "api": "csp_AppYsV2",
 "searchable": 1,
@@ -471,7 +471,7 @@
 },
 {
  "key": "北川影视",
-"name": "⚡北川┃影视",
+"name": "⚡北川┃电影",
 "type": 3,
 "api": "csp_AppYsV2",
 "searchable": 1,
@@ -515,7 +515,7 @@
 },
 {
 "key": "csp_XBPQ_fxzcjy",
-"name": "💖柴姬┃XBPQ",
+"name": "💖柴姬┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -526,7 +526,7 @@
 },
 {
 "key": "魅影影视",
-"name": "💖魅影┃XBPQ",
+"name": "💖魅影┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -546,7 +546,7 @@
 },
 {
 "key": "csp_樱之空",
-"name": "💖樱空┃XBPQ",
+"name": "💖樱空┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -564,7 +564,7 @@
 },
 {
 "key": " fxz好影",
-"name": "💖好影┃XBPQ",
+"name": "💖好影┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -575,7 +575,7 @@
 },
 {
 "key": "99影视",
-"name": "💖对酒┃XBPQ",
+"name": "💖对酒┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -587,7 +587,7 @@
 },
 {
 "key": "歪影秒播",
-"name": "💖歪影┃XBPQ",
+"name": "💖歪影┃秒播",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -598,7 +598,7 @@
 },
 {
 "key":"HDmoli",
-"name":"🎦魔力┃XBPQ",
+"name":"🎦魔力┃电影",
 "type":3,
 "api":"csp_XBPQ",
 
@@ -620,7 +620,7 @@
 }, 
 {
 "key": "csp_XBPQ_lz",
-"name": "🦊黑狐┃XBPQ",
+"name": "🦊黑狐┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -631,7 +631,7 @@
 },
 {
 "key" : "js_v2-jy",
-"name" :"💖臻品┃XBPQ",
+"name" :"💖臻品┃电影",
 "type" : 3,
 "api" : "csp_XBPQ",
 
@@ -639,7 +639,7 @@
 },
 {
 "key":"saohuo",
-"name":"🔥骚火┃XBPQ",
+"name":"🔥骚火┃电影",
 "type": 3,
 "searchable": 1,
 "quickSearch": 1,
@@ -660,7 +660,7 @@
 },
 {
 "key":"云播",
-"name":"☁️云播┃XBPQ",
+"name":"☁️云播┃电影",
 "type": 3,
 "api":"csp_XBPQ",
 "ext":{
@@ -692,7 +692,7 @@
 },
 {
 "key": "月亮",
-"name": "🔱月亮┃XBPQ",
+"name": "🔱月亮┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -702,7 +702,7 @@
 },
 {
 "key": "csp_星辰",
-"name": "✨星辰┃XBPQ",
+"name": "✨星辰┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -732,7 +732,7 @@
 },
 {
 "key": "鸭奈飞",
-"name": "🦆鸭奈飞┃XBPQ",
+"name": "🦆奈飞┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -742,7 +742,7 @@
 },
 {
 "key": "光棍影视",
-"name": "🥁光棍┃XBPQ",
+"name": "🥁光棍┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "filterable": 1,
@@ -752,7 +752,7 @@
 },
 {
 "key": "黑木耳资源",
-"name": "🍆黑木耳┃XBPQ",
+"name": "🍆木耳┃电影",
 "type": 1,
 "api": "https://www.heimuer.tv/api.php/provide/vod",
 "playUrl": "https://player.heimuer.tv/index.html?url=",
@@ -763,14 +763,14 @@
 },
 {
 "key":"XBPQ_HuanYuXing",
-"name":"🦺麻衣┃XBPQ",
+"name":"🦺麻衣┃电影",
 "type":3,"api":"csp_XBPQ",
 "ext": {"分类url":"https://www.huanyuxing.com/s/{cateId}/area/{area}/class/{class}/page/{catePg}/year/{year}.html","分类":"电影$id-a#电视剧$id-b#动漫$id-c#综艺$id-d"
 }
 },
 {
 "key": "奈飞中文",
-"name": "🌌奈飞┃XBPQ",
+"name": "🌌奈飞┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -780,7 +780,7 @@
 },
 {
 "key": "csp_xBPQ_疯狗",
-"name": "🐕‍🦺疯狗┃XBPQ",
+"name": "🐕‍🦺疯狗┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -790,7 +790,7 @@
 },
 {
 "key": "csp_五五",
-"name": "🎦五五┃XBPQ",
+"name": "🎦五五┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -800,7 +800,7 @@
 },
 {
 "key": "白嫖tv",
-"name": "💯白嫖tv┃XBPQ",
+"name": "💯白嫖┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -810,7 +810,7 @@
 },
 {
 "key": "夕云",
-"name": "🍬夕云┃XBPQ",
+"name": "🍬夕云┃电影",
 "type": 3,
 "api": "csp_XBPQ",	
 "ext": {
@@ -821,7 +821,7 @@
 },
 {
 "key": "csp_xBPQ_奇优",
-"name": "🔰奇优┃XBPQ",
+"name": "🔰奇优┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -842,7 +842,7 @@
 },
 {
 "key":"8号影院",
-"name":"🌞首选┃XBPQ",
+"name":"🌞首选┃影院",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -860,7 +860,7 @@
 },
 {
 "key":"kimivod",
-"name":"🧿柯觅┃XBPQ",
+"name":"🧿柯觅┃影视",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -882,7 +882,7 @@
 },
 {
 "key": "影视大全",
-"name": "🧿大全┃XBPQ",
+"name": "🧿影视┃大全",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -895,7 +895,7 @@
 },
 {
 "key": "88ys",
-"name": "🧿88┃XBPQ",
+"name": "🧿88┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -913,7 +913,7 @@
 },
 {
 "key": "飞流",
-"name": "🧿飞流┃XBPQ",
+"name": "🧿飞流┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -938,7 +938,7 @@
 },
 {
 "key": "好影快看",
-"name": "🧿好影┃XBPQ",
+"name": "🧿好影┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -947,7 +947,7 @@
 },
 {
 "key": "影鸭影视",
-"name": "🧿影芽┃XBPQ",
+"name": "🧿影芽┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -957,7 +957,7 @@
 },
 {
 "key": "豌豆影院",
-"name": "🧿豌豆┃XBPQ",
+"name": "🧿豌豆┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -976,7 +976,7 @@
 },
 {
 "key": "唐人",
-"name": "🧿唐人┃XBPQ",
+"name": "🧿唐人┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -989,7 +989,7 @@
 },
 {
 "key": "巨人影视",
-"name": "🧿巨人┃XBPQ",
+"name": "🧿巨人┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1002,7 +1002,7 @@
 },
 {
 "key": "电影大师",
- "name": "🧿大师┃XBPQ",
+ "name": "🧿大师┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1012,7 +1012,7 @@
 },
 {
 "key": "白羊影院",
-"name": "🧿白羊┃XBPQ",
+"name": "🧿白羊┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1022,7 +1022,7 @@
 },
 {
 "key": "雨见视频",
-"name": "🧿雨见┃XBPQ",
+"name": "🧿雨见┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1037,7 +1037,7 @@
 },
 {
 "key": "星辰影院x",
-"name": "*⃣️星辰┃XBPQ",
+"name": "*⃣️星辰┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1052,7 +1052,7 @@
 },
 {
 "key": "哩咕TV",
-"name": "#⃣️哩咕┃XBPQ",
+"name": "#⃣️哩咕┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1065,7 +1065,7 @@
 },
 {
 "key": "蜗牛影视",
-"name": "🐌蜗牛┃XBPQ",
+"name": "🐌蜗牛┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1078,7 +1078,7 @@
 },
 {
 "key": "电影驿站",
-"name": "🕋驿站┃XBPQ",
+"name": "🕋驿站┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1088,7 +1088,7 @@
 },
 {
 "key": "剧集TV",
-"name": "📽剧集┃XBPQ",
+"name": "📽剧集┃TV",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1101,7 +1101,7 @@
 },
 {
 "key": "可视影院",
-"name": "💥可视┃XBPQ",
+"name": "💥可视┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1114,7 +1114,7 @@
 },
 {
 "key": "麦田影视",
-"name": "💥麦田┃XBPQ",
+"name": "💥麦田┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1124,7 +1124,7 @@
 },
 {
 "key": "玖柒影视",
-"name": "🍋玖柒┃XBPQ",
+"name": "🍋玖柒┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1137,7 +1137,7 @@
 },
 {
 "key": "电影先生",
-"name": "🍋先生┃XBPQ",
+"name": "🍋先生┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1147,7 +1147,7 @@
 },
 {
 "key": "没事影院",
-"name": "🍋没事┃XBPQ",
+"name": "🍋没事┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1160,7 +1160,7 @@
 },
 {
 "key": "百万影视",
-"name": "🍋百万┃XBPQ",
+"name": "🍋百万┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1170,7 +1170,7 @@
 },
 {
 "key": "魔力高清cc",
-"name": "🌾魔力┃XBPQ",
+"name": "🌾魔力┃高清",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1184,7 +1184,7 @@
 },
 {
 "key": "A67TV",
-"name": "🌾A67┃XBPQ",
+"name": "🌾A67┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1197,7 +1197,7 @@
 },
 {
 "key": "木易影画",
-"name": "🎦影画┃XBPQ",
+"name": "🎦影画┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1210,7 +1210,7 @@
 },
 {
 "key":"csp_ipianba",
-"name":"🎦片吧┃XBPQ",
+"name":"🎦片吧┃影视",
 "type":3,
 "api":"csp_XBPQ",
 "ext":{
@@ -1220,7 +1220,7 @@
 },
 {
 "key":"小镇",
-"name":"🎦小镇┃XBPQ",
+"name":"🎦小镇┃影视",
 "type":3,
 "api":"csp_XBPQ",
 "searchable":1,
@@ -1259,7 +1259,7 @@
 },
 { 
 "key": "csp_酒吧影视",
-"name": "🎦酒吧┃XBPQ",
+"name": "🎦酒吧┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1319,7 +1319,7 @@
 }}},
 {
 "key": " 百姓 ",
-"name": "🎦百姓┃XBPQ",
+"name": "🎦百姓┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1333,7 +1333,7 @@
 },
 {
 "key": "大师兄",
-"name": "🎦大师兄┃XBPQ",
+"name": "🎦师兄┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1344,7 +1344,7 @@
 },
 {
 "key": "白嫖者联盟",
-"name": "🎦白嫖┃XBPQ",
+"name": "🎦白嫖┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1356,7 +1356,7 @@
 },
 {
 "key": "三米ys",
-"name": "🎦三米┃XBPQ",
+"name": "🎦三米┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1366,7 +1366,7 @@
 },
 {
 "key": "美柏",
-"name": "🎦美柏┃XBPQ",
+"name": "🎦美柏┃影视",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1376,7 +1376,7 @@
 },
 {
 "key": "皮皮影视吧",
-"name": "🦐皮皮4K┃XBPQ",
+"name": "🦐皮皮┃ 4K",
 "type": 3,
 "api": "csp_XBPQ",
 "playerType": "2",
@@ -1412,7 +1412,7 @@
 },
 {
 "key": "csp_Xbpq_4K剧院",
-"name": "💢4K剧院┃XBPQ",
+"name": "💢4K┃剧院",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -1423,7 +1423,7 @@
 },
 {
 "key": "csp_红狐狸影视",
-"name": "💢红狐┃XBPQ",
+"name": "💢红狐┃影院",
 "type": 3,
 "ua": "okhttp/3.15",
 "api": "csp_XBPQ",
@@ -1435,7 +1435,7 @@
 },
 {
 "key": "手机影院",
-"name": "💢手机┃XBPQ",
+"name": "💢手机┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "playerType": "1",
@@ -1468,7 +1468,7 @@
 },
 {
 "key": "appmovie",
-"name": "💢APP影院┃XBPQ",
+"name": "💢APP┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1482,7 +1482,7 @@
 },
 {
 "key": "xbpq_7Itv",
-"name": "💢7itv┃XBPQ",
+"name": "💢7itv┃综艺",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1508,7 +1508,7 @@
 },
 {
 "key": "茶杯狐影视",
-"name": "💢茶杯狐┃XBPQ",
+"name": "💢茶 杯 狐",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1522,7 +1522,7 @@
 },
 {
 "key": "xbpq_77看片",
-"name": "💢77看片┃XBPQ",
+"name": "💢77┃看片",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1544,7 +1544,7 @@
 },
 {
 "key": "xbpq_西瓜视频",
-"name": "💢西瓜┃XBPQ",
+"name": "💢西瓜┃视频",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1565,7 +1565,7 @@
 },
 {
 "key": "xbpq_牛逼新视觉",
-"name": "💢牛牛┃XBPQ",
+"name": "💢牛牛┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "playerType": 2,
@@ -1590,7 +1590,7 @@
 },
 {
 "key": "xbpq_蓝光影院",
-"name": "💢蓝光┃XBPQ",
+"name": "💢蓝光┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "filterable": 1,
@@ -1610,7 +1610,7 @@
 },
 {
 "key": "XBPQ_导航影视",
-"name": "💢导航┃XBPQ",
+"name": "💢导航┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1624,7 +1624,7 @@
 },
 {
 "key": "xbpq_全能影视",
-"name": "💢全能┃XBPQ",
+"name": "💢全能┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 
@@ -1639,7 +1639,7 @@
 },
 {
 "key": "xbpq_无极",
-"name": "💢无极┃XBPQ",
+"name": "💢无极┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1658,7 +1658,7 @@
 },
 {
 "key": "xbpq_小羊影视",
-"name": "💢羊羔┃XBPQ",
+"name": "💢羊羔┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "filterable": 1,
@@ -1672,7 +1672,7 @@
 },
 {
 "key": "18影视",
-"name": "💢18YS┃XBPQ",
+"name": "💢18YS┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1700,7 +1700,7 @@
 },
 {
 "key": "xbpq_xcys星辰影视",
-"name": "💢星辰┃XBPQ",
+"name": "💢星辰┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1710,7 +1710,7 @@
 },
 {
 "key": "毒舌电影",
-"name": "💢毒舌┃XBPQ",
+"name": "💢毒舌┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1739,7 +1739,7 @@
 },
 {
 "key": "好剧屋",
-"name": "💢好剧┃XBPQ",
+"name": "💢好剧┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1750,7 +1750,7 @@
 },
 {
 "key": "xbpq_爱宝片",
-"name": "💢爱宝┃XBPQ",
+"name": "💢爱宝┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "filterable": 1,
@@ -1764,7 +1764,7 @@
 },
 {
 "key": "xbpq_自由",
-"name": "💢自由┃XBPQ",
+"name": "💢自由┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1781,7 +1781,7 @@
 },
 {
 "key": "天龙高清",
-"name": "💢天龙┃XBPQ",
+"name": "💢天龙┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1805,7 +1805,7 @@
 },
 {
 "key": "XBPQ1_85K",
-"name": "💢85K┃XBPQ",
+"name": "💢85K┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1822,7 +1822,7 @@
 },
 {
 "key": "feikuai",
-"name": "💢飞快┃XBPQ",
+"name": "💢飞快┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1835,7 +1835,7 @@
 },
 {
 "key": "私人xbpq",
-"name": "💢私人┃XBPQ",
+"name": "💢私人┃综艺",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -1856,7 +1856,7 @@
 },
 {
 "key": "88影视",
-"name": "💢88影视┃XBPQ",
+"name": "💢八八┃电影",
 "type": 3,
 "filterable": 1,
 "api": "csp_XBPQ",
@@ -1878,7 +1878,7 @@
 },
 {
 "key": "csp_XBPQ_六六",
-"name": "💢六六┃XBPQ",
+"name": "💢六六┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1907,7 +1907,7 @@
 },
 {
 "key": "csp_XBPQ_首播",
-"name": "💢首播┃XBPQ",
+"name": "💢首播┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1920,7 +1920,7 @@
 },
 {
 "key": "XBPQ-789ys",
-"name": "💢789┃XBPQ",
+"name": "💢789┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1933,7 +1933,7 @@
 },
 {
 "key": "348影视",
-"name": "💢348┃XBPQ",
+"name": "💢348┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1943,7 +1943,7 @@
 },
 {
 "key": "dnvods影视",
-"name": "💢多瑙┃XBPQ",
+"name": "💢多瑙┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1956,7 +1956,7 @@
 },
 {
 "key": "XP-Vs影视",
-"name": "💢VS影视┃XBPQ",
+"name": "💢VS影视┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1972,7 +1972,7 @@
 },
 {
 "key": "jinmantv",
-"name": "💢金曼┃XBPQ",
+"name": "💢金曼┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1985,7 +1985,7 @@
 },
 {
 "key": "OK影院",
-"name": "💢OK影┃XBPQ",
+"name": "💢OK影┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -1998,7 +1998,7 @@
 },
 {
 "key": "xb-zdhxh",
-"name": "💢万全┃XBPQ",
+"name": "💢万全┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -2012,7 +2012,7 @@
 },
 {
 "key": "XBPQ_aiyingshis",
-"name": "💢影视┃XBPQ",
+"name": "💢影视┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -2023,7 +2023,7 @@
 },
 {
 "key": "csp_XBPQ_哒哇",
-"name": "💢哒哇┃XBPQ",
+"name": "💢哒哇┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -2040,7 +2040,7 @@
 },
 {
 "key": "XBPQ_熊猫",
-"name": "💢熊猫┃XBPQ",
+"name": "💢熊猫┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -2051,7 +2051,7 @@
 },
 {
 "key": "xbpq_139影视",
-"name": "💢139YS┃XBPQ",
+"name": "💢139YS┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -2069,7 +2069,7 @@
 },
 {
 "key": "567🎬",
-"name": "💢567┃XBPQ",
+"name": "💢567┃电影",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -2084,7 +2084,7 @@
 },
 {
 "key": "lldcy飘花影院",
-"name": "💢飘花┃XBPQ",
+"name": "💢飘花┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -2098,7 +2098,7 @@
 },
 {
 "key": "jsbjyxgs天堂影院",
-"name": "💢天堂┃XBPQ",
+"name": "💢天堂┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -2112,7 +2112,7 @@
 },
 {
 "key": "ntylbz永联",
-"name": "💢永联┃XBPQ",
+"name": "💢永联┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -2127,7 +2127,7 @@
 },
 {
 "key": "csp_2yjw",
-"name": "💢外剧┃XBPQ",
+"name": "💢外剧┃影院",
 "type": 3,
 "api": "csp_XBPQ",
 "ext": {
@@ -2138,7 +2138,7 @@
 },
 {
 "key": "58动漫网",
-"name": "✨58动漫┃XBPQ",
+"name": "✨58┃动漫",
 "type": 3,
 "api": "csp_XBPQ",
 "searchable": 1,
@@ -2152,7 +2152,7 @@
 },
 {
 "key": "csp_58",
-"name": "🥌 58动漫┃XBPQ ",
+"name": "🥌 58┃动漫 ",
 "type": 3,
 "style": {
 "type": "rect",
@@ -2515,7 +2515,7 @@
 },
 {
 "key": "cjzy_360资源",
-"name": "♻️卫士┃影视",
+"name": "♻️360┃影视",
 "type": 1,
 "api": "https://360zy.com/api.php/provide/vod",
 "playUrl": "",
@@ -3081,7 +3081,7 @@
 },
 {
 "key": "csp_SeedHub",
-"name": "🧲OpenI┃磁力",
+"name": "🧲巴士┃磁力",
 "type": 3,
 "api": "csp_SeedHub",
 "searchable": 1,
@@ -3091,7 +3091,7 @@
 },
 {
 "key": "csp_MeijuTT",
-"name": "🧲美剧┃磁力",
+"name": "🧲天堂┃磁力",
 "type": 3,
 "api": "csp_MeijuTT",
 "searchable": 1,
@@ -3142,7 +3142,7 @@
 },
 {
 "key": "js_蓝莓短剧",
-"name": "📽蓝莓短剧",
+"name": "📽蓝莓┃短剧",
 "type": 3,
 "api": "./js/drpy2.min.js",
 "searchable": 1,
@@ -3248,7 +3248,7 @@
 "ext": {
 "classes": [
 {
-"type_name": "酷狗",
+"type_name": "酷狗┃听歌",
 "type_id": "kugou"
 }
 ]
@@ -3321,10 +3321,10 @@
 "quickSearch": 0,
 "changeable": 0
 },
-{"key":"拳皇争霸","name":"🚛拳皇格斗","type":3,"api":"./js/drpy2.min.js","ext":"./js/quanhuang.js"},
+{"key":"拳皇争霸","name":"🚛拳皇┃格斗","type":3,"api":"./js/drpy2.min.js","ext":"./js/quanhuang.js"},
 {
 "key": "Aid",
-"name": "🚑急救教学",
+"name": "🚑急救┃教学",
 "type": 3,
 "api": "csp_FirstAid",
 "searchable": 0,
@@ -3336,6 +3336,8 @@
 }
 },
 
+{"key":"push_agent","name":"🛴手机┃推送","type":3,"api":"csp_Push","searchable":0,"quickSearch":0,"ext":{"aliToken":"tvbox/token.txt","quarkCookie":"tvbox/cookie.txt","from":"4k|auto|fhd"}}
+],
 "parses":[
 {"name":"聚合","type":3,"url":"Demo"},
 {"name": "Json轮询","type": 2,"url": "Sequence"},
